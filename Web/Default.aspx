@@ -23,7 +23,7 @@
     <h3>Wowpedia Link</h3>
     <span><asp:TextBox ID="txtWoWPedia" runat="server"></asp:TextBox> <asp:Button ID="btnWoWPedia" runat="server" Text="Refresh" /></span>
 	
-	
+	<%--
 	<ol class="round">
 	<asp:Repeater ID="rpQLinks" runat="server">
 		<ItemTemplate>
@@ -32,7 +32,7 @@
 				 [<%# Eval("Id") %>] <%# Eval("Name") %> [<%# Eval("RequiredLevel") %>-<%# Eval("Level") %>]</a></li>
 		</ItemTemplate>
 
-	</asp:Repeater>
+	</asp:Repeater>--%>
 <script type="text/javascript">
     jQuery.fn.sortElements = (function () {
 

@@ -1,0 +1,1583 @@
+﻿2014-10-12 15:33:40 [DEBUG] Quest JSON: Invalid matches count:9327
+2014-10-12 15:33:40 [DEBUG] Quest JSON: Invalid matches count:9327
+2014-10-12 15:33:40 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 15:33:40 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 15:33:40 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 15:33:40 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 15:34:13 [DEBUG] Quest JSON: Invalid matches count:9329
+2014-10-12 15:34:13 [DEBUG] Quest JSON: Invalid matches count:9329
+2014-10-12 15:34:13 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 15:34:13 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 15:34:13 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 15:34:13 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 15:35:26 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 15:35:26 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 15:35:26 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 15:35:26 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 15:36:19 [DEBUG] Quest JSON: Invalid matches count:9130
+2014-10-12 15:36:19 [DEBUG] Quest JSON: Invalid matches count:9130
+2014-10-12 15:36:19 [DEBUG] Npc JSON: Invalid matches count:16261
+2014-10-12 15:36:19 [DEBUG] Npc JSON: Invalid matches count:16261
+2014-10-12 15:36:19 [DEBUG] Npc. Unknown property[16261]:tag
+2014-10-12 15:36:19 [DEBUG] Npc. Unknown property[16261]:tag
+2014-10-12 15:36:19 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 15:36:19 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 15:36:19 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 15:36:19 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 15:36:20 [DEBUG] Quest JSON: Invalid matches count:9133
+2014-10-12 15:36:20 [DEBUG] Quest JSON: Invalid matches count:9133
+2014-10-12 15:36:20 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 15:36:20 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 15:36:20 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 15:36:20 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 15:36:21 [DEBUG] Npc JSON: Invalid matches count:16191
+2014-10-12 15:36:21 [DEBUG] Npc JSON: Invalid matches count:16191
+2014-10-12 15:36:21 [DEBUG] Npc. Unknown property[16191]:tag
+2014-10-12 15:36:21 [DEBUG] Npc. Unknown property[16191]:tag
+2014-10-12 15:36:22 [DEBUG] Npc JSON: Invalid matches count:16240
+2014-10-12 15:36:22 [DEBUG] Npc JSON: Invalid matches count:16240
+2014-10-12 15:36:22 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 15:36:22 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 15:36:23 [DEBUG] Quest JSON: Invalid matches count:9328
+2014-10-12 15:36:23 [DEBUG] Quest JSON: Invalid matches count:9328
+2014-10-12 15:36:23 [DEBUG] Npc JSON: Invalid matches count:16239
+2014-10-12 15:36:23 [DEBUG] Npc JSON: Invalid matches count:16239
+2014-10-12 15:36:24 [DEBUG] Npc JSON: Invalid matches count:16802
+2014-10-12 15:36:24 [DEBUG] Npc JSON: Invalid matches count:16802
+2014-10-12 15:36:24 [DEBUG] Npc. Unknown property[16802]:tag
+2014-10-12 15:36:24 [DEBUG] Npc. Unknown property[16802]:tag
+2014-10-12 15:36:24 [DEBUG] Quest JSON: Invalid matches count:9163
+2014-10-12 15:36:24 [DEBUG] Quest JSON: Invalid matches count:9163
+2014-10-12 15:36:25 [DEBUG] Npc JSON: Invalid matches count:16231
+2014-10-12 15:36:25 [DEBUG] Npc JSON: Invalid matches count:16231
+2014-10-12 15:36:25 [DEBUG] Npc JSON: Invalid matches count:16231
+2014-10-12 15:36:25 [DEBUG] Npc JSON: Invalid matches count:16231
+2014-10-12 15:36:25 [DEBUG] Quest JSON: Invalid matches count:9149
+2014-10-12 15:36:25 [DEBUG] Quest JSON: Invalid matches count:9149
+2014-10-12 15:36:25 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 15:36:25 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 15:36:25 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 15:36:25 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 15:36:26 [DEBUG] Quest JSON: Invalid matches count:9216
+2014-10-12 15:36:26 [DEBUG] Quest JSON: Invalid matches count:9216
+2014-10-12 15:36:26 [DEBUG] Npc JSON: Invalid matches count:16205
+2014-10-12 15:36:26 [DEBUG] Npc JSON: Invalid matches count:16205
+2014-10-12 15:36:26 [DEBUG] Npc JSON: Invalid matches count:16205
+2014-10-12 15:36:26 [DEBUG] Npc JSON: Invalid matches count:16205
+2014-10-12 15:36:27 [DEBUG] Quest JSON: Invalid matches count:9193
+2014-10-12 15:36:27 [DEBUG] Quest JSON: Invalid matches count:9193
+2014-10-12 15:36:27 [DEBUG] Npc JSON: Invalid matches count:16289
+2014-10-12 15:36:27 [DEBUG] Npc JSON: Invalid matches count:16289
+2014-10-12 15:36:27 [DEBUG] Npc JSON: Invalid matches count:16289
+2014-10-12 15:36:27 [DEBUG] Npc JSON: Invalid matches count:16289
+2014-10-12 15:36:28 [DEBUG] Quest JSON: Invalid matches count:9156
+2014-10-12 15:36:28 [DEBUG] Quest JSON: Invalid matches count:9156
+2014-10-12 15:36:28 [DEBUG] Npc JSON: Invalid matches count:16200
+2014-10-12 15:36:28 [DEBUG] Npc JSON: Invalid matches count:16200
+2014-10-12 15:36:28 [DEBUG] Quest JSON: Invalid matches count:9130
+2014-10-12 15:36:28 [DEBUG] Quest JSON: Invalid matches count:9130
+2014-10-12 15:36:28 [DEBUG] Npc JSON: Invalid matches count:16261
+2014-10-12 15:36:28 [DEBUG] Npc JSON: Invalid matches count:16261
+2014-10-12 15:36:28 [DEBUG] Npc. Unknown property[16261]:tag
+2014-10-12 15:36:28 [DEBUG] Npc. Unknown property[16261]:tag
+2014-10-12 15:36:28 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 15:36:28 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 15:36:28 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 15:36:28 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 15:36:28 [DEBUG] Quest JSON: Invalid matches count:9133
+2014-10-12 15:36:28 [DEBUG] Quest JSON: Invalid matches count:9133
+2014-10-12 15:36:28 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 15:36:28 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 15:36:28 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 15:36:28 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 15:36:28 [DEBUG] Npc JSON: Invalid matches count:16191
+2014-10-12 15:36:28 [DEBUG] Npc JSON: Invalid matches count:16191
+2014-10-12 15:36:28 [DEBUG] Npc. Unknown property[16191]:tag
+2014-10-12 15:36:28 [DEBUG] Npc. Unknown property[16191]:tag
+2014-10-12 15:36:28 [DEBUG] Quest JSON: Invalid matches count:9134
+2014-10-12 15:36:28 [DEBUG] Quest JSON: Invalid matches count:9134
+2014-10-12 15:36:29 [DEBUG] Npc JSON: Invalid matches count:16191
+2014-10-12 15:36:29 [DEBUG] Npc JSON: Invalid matches count:16191
+2014-10-12 15:36:29 [DEBUG] Npc. Unknown property[16191]:tag
+2014-10-12 15:36:29 [DEBUG] Npc. Unknown property[16191]:tag
+2014-10-12 15:36:29 [DEBUG] Npc JSON: Invalid matches count:16192
+2014-10-12 15:36:29 [DEBUG] Npc JSON: Invalid matches count:16192
+2014-10-12 15:36:29 [DEBUG] Npc. Unknown property[16192]:tag
+2014-10-12 15:36:29 [DEBUG] Npc. Unknown property[16192]:tag
+2014-10-12 15:36:29 [DEBUG] Quest JSON: Invalid matches count:9135
+2014-10-12 15:36:29 [DEBUG] Quest JSON: Invalid matches count:9135
+2014-10-12 15:36:29 [DEBUG] Npc JSON: Invalid matches count:16192
+2014-10-12 15:36:29 [DEBUG] Npc JSON: Invalid matches count:16192
+2014-10-12 15:36:29 [DEBUG] Npc. Unknown property[16192]:tag
+2014-10-12 15:36:29 [DEBUG] Npc. Unknown property[16192]:tag
+2014-10-12 15:36:29 [DEBUG] Npc JSON: Invalid matches count:16261
+2014-10-12 15:36:29 [DEBUG] Npc JSON: Invalid matches count:16261
+2014-10-12 15:36:29 [DEBUG] Npc. Unknown property[16261]:tag
+2014-10-12 15:36:29 [DEBUG] Npc. Unknown property[16261]:tag
+2014-10-12 15:36:29 [DEBUG] Quest JSON: Invalid matches count:29180
+2014-10-12 15:36:29 [DEBUG] Quest JSON: Invalid matches count:29180
+2014-10-12 15:36:29 [DEBUG] Npc JSON: Invalid matches count:23559
+2014-10-12 15:36:29 [DEBUG] Npc JSON: Invalid matches count:23559
+2014-10-12 15:36:29 [DEBUG] Npc JSON: Invalid matches count:23559
+2014-10-12 15:36:29 [DEBUG] Npc JSON: Invalid matches count:23559
+2014-10-12 15:36:29 [DEBUG] Quest JSON: Invalid matches count:11164
+2014-10-12 15:36:29 [DEBUG] Quest JSON: Invalid matches count:11164
+2014-10-12 15:36:30 [DEBUG] Npc JSON: Invalid matches count:23761
+2014-10-12 15:36:30 [DEBUG] Npc JSON: Invalid matches count:23761
+2014-10-12 15:36:30 [DEBUG] Npc JSON: Invalid matches count:23761
+2014-10-12 15:36:30 [DEBUG] Npc JSON: Invalid matches count:23761
+2014-10-12 15:36:30 [DEBUG] Npc JSON: Invalid matches count:23761
+2014-10-12 15:36:30 [DEBUG] Npc JSON: Invalid matches count:23761
+2014-10-12 15:36:30 [DEBUG] Npc JSON: Invalid matches count:23897
+2014-10-12 15:36:30 [DEBUG] Npc JSON: Invalid matches count:23897
+2014-10-12 15:36:30 [DEBUG] Npc JSON: Invalid matches count:23858
+2014-10-12 15:36:30 [DEBUG] Npc JSON: Invalid matches count:23858
+2014-10-12 15:36:30 [DEBUG] Npc JSON: Invalid matches count:23858
+2014-10-12 15:36:30 [DEBUG] Npc JSON: Invalid matches count:23858
+2014-10-12 15:36:30 [DEBUG] Quest JSON: Invalid matches count:9812
+2014-10-12 15:36:30 [DEBUG] Quest JSON: Invalid matches count:9812
+2014-10-12 15:36:31 [DEBUG] Npc JSON: Invalid matches count:16802
+2014-10-12 15:36:31 [DEBUG] Npc JSON: Invalid matches count:16802
+2014-10-12 15:36:31 [DEBUG] Npc. Unknown property[16802]:tag
+2014-10-12 15:36:31 [DEBUG] Npc. Unknown property[16802]:tag
+2014-10-12 15:36:32 [DEBUG] Npc JSON: Invalid matches count:10181
+2014-10-12 15:36:32 [DEBUG] Npc JSON: Invalid matches count:10181
+2014-10-12 15:36:32 [DEBUG] Npc. Unknown property[10181]:tag
+2014-10-12 15:36:32 [DEBUG] Npc. Unknown property[10181]:tag
+2014-10-12 15:36:32 [DEBUG] Quest JSON: Invalid matches count:9491
+2014-10-12 15:36:32 [DEBUG] Quest JSON: Invalid matches count:9491
+2014-10-12 15:36:32 [DEBUG] Quest JSON: Invalid matches count:10548
+2014-10-12 15:36:32 [DEBUG] Quest JSON: Invalid matches count:10548
+2014-10-12 15:36:32 [DEBUG] Quest JSON: Invalid matches count:11130
+2014-10-12 15:36:32 [DEBUG] Quest JSON: Invalid matches count:11130
+2014-10-12 15:36:32 [DEBUG] Npc JSON: Invalid matches count:19227
+2014-10-12 15:36:32 [DEBUG] Npc JSON: Invalid matches count:19227
+2014-10-12 15:36:32 [DEBUG] Npc. Unknown property[19227]:tag
+2014-10-12 15:36:32 [DEBUG] Npc. Unknown property[19227]:tag
+2014-10-12 15:36:32 [DEBUG] Npc JSON: Invalid matches count:23559
+2014-10-12 15:36:32 [DEBUG] Npc JSON: Invalid matches count:23559
+2014-10-12 15:36:32 [DEBUG] Quest JSON: Invalid matches count:11178
+2014-10-12 15:36:32 [DEBUG] Quest JSON: Invalid matches count:11178
+2014-10-12 15:36:32 [DEBUG] Npc JSON: Invalid matches count:23559
+2014-10-12 15:36:32 [DEBUG] Npc JSON: Invalid matches count:23559
+2014-10-12 15:38:39 [DEBUG] Quest JSON: Invalid matches count:9327
+2014-10-12 15:38:39 [DEBUG] Quest JSON: Invalid matches count:9327
+2014-10-12 15:38:39 [DEBUG] Quest JSON: Invalid matches count:9327
+2014-10-12 15:38:39 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 15:38:39 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 15:38:39 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 15:38:39 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 15:38:39 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 15:38:39 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 15:38:39 [DEBUG] Quest JSON: Invalid matches count:9329
+2014-10-12 15:38:39 [DEBUG] Quest JSON: Invalid matches count:9329
+2014-10-12 15:38:39 [DEBUG] Quest JSON: Invalid matches count:9329
+2014-10-12 15:38:39 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 15:38:39 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 15:38:39 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 15:38:39 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 15:38:39 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 15:38:39 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 15:38:39 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 15:38:39 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 15:38:39 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 15:38:39 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 15:38:39 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 15:38:39 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 15:38:40 [DEBUG] Quest JSON: Invalid matches count:9130
+2014-10-12 15:38:40 [DEBUG] Quest JSON: Invalid matches count:9130
+2014-10-12 15:38:40 [DEBUG] Quest JSON: Invalid matches count:9130
+2014-10-12 15:38:40 [DEBUG] Npc JSON: Invalid matches count:16261
+2014-10-12 15:38:40 [DEBUG] Npc JSON: Invalid matches count:16261
+2014-10-12 15:38:40 [DEBUG] Npc JSON: Invalid matches count:16261
+2014-10-12 15:38:40 [DEBUG] Npc. Unknown property[16261]:tag
+2014-10-12 15:38:40 [DEBUG] Npc. Unknown property[16261]:tag
+2014-10-12 15:38:40 [DEBUG] Npc. Unknown property[16261]:tag
+2014-10-12 15:38:40 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 15:38:40 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 15:38:40 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 15:38:40 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 15:38:40 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 15:38:40 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 15:38:40 [DEBUG] Quest JSON: Invalid matches count:9133
+2014-10-12 15:38:40 [DEBUG] Quest JSON: Invalid matches count:9133
+2014-10-12 15:38:40 [DEBUG] Quest JSON: Invalid matches count:9133
+2014-10-12 15:38:40 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 15:38:40 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 15:38:40 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 15:38:40 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 15:38:40 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 15:38:40 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 15:38:40 [DEBUG] Npc JSON: Invalid matches count:16191
+2014-10-12 15:38:40 [DEBUG] Npc JSON: Invalid matches count:16191
+2014-10-12 15:38:40 [DEBUG] Npc JSON: Invalid matches count:16191
+2014-10-12 15:38:40 [DEBUG] Npc. Unknown property[16191]:tag
+2014-10-12 15:38:40 [DEBUG] Npc. Unknown property[16191]:tag
+2014-10-12 15:38:40 [DEBUG] Npc. Unknown property[16191]:tag
+2014-10-12 15:38:40 [DEBUG] Npc JSON: Invalid matches count:16240
+2014-10-12 15:38:40 [DEBUG] Npc JSON: Invalid matches count:16240
+2014-10-12 15:38:40 [DEBUG] Npc JSON: Invalid matches count:16240
+2014-10-12 15:38:40 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 15:38:40 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 15:38:40 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 15:38:40 [DEBUG] Quest JSON: Invalid matches count:9328
+2014-10-12 15:38:40 [DEBUG] Quest JSON: Invalid matches count:9328
+2014-10-12 15:38:40 [DEBUG] Quest JSON: Invalid matches count:9328
+2014-10-12 15:38:40 [DEBUG] Npc JSON: Invalid matches count:16239
+2014-10-12 15:38:40 [DEBUG] Npc JSON: Invalid matches count:16239
+2014-10-12 15:38:40 [DEBUG] Npc JSON: Invalid matches count:16239
+2014-10-12 15:38:40 [DEBUG] Npc JSON: Invalid matches count:16802
+2014-10-12 15:38:40 [DEBUG] Npc JSON: Invalid matches count:16802
+2014-10-12 15:38:40 [DEBUG] Npc JSON: Invalid matches count:16802
+2014-10-12 15:38:40 [DEBUG] Npc. Unknown property[16802]:tag
+2014-10-12 15:38:40 [DEBUG] Npc. Unknown property[16802]:tag
+2014-10-12 15:38:40 [DEBUG] Npc. Unknown property[16802]:tag
+2014-10-12 15:38:40 [DEBUG] Quest JSON: Invalid matches count:9163
+2014-10-12 15:38:40 [DEBUG] Quest JSON: Invalid matches count:9163
+2014-10-12 15:38:40 [DEBUG] Quest JSON: Invalid matches count:9163
+2014-10-12 15:38:40 [DEBUG] Npc JSON: Invalid matches count:16231
+2014-10-12 15:38:40 [DEBUG] Npc JSON: Invalid matches count:16231
+2014-10-12 15:38:40 [DEBUG] Npc JSON: Invalid matches count:16231
+2014-10-12 15:38:40 [DEBUG] Npc JSON: Invalid matches count:16231
+2014-10-12 15:38:40 [DEBUG] Npc JSON: Invalid matches count:16231
+2014-10-12 15:38:40 [DEBUG] Npc JSON: Invalid matches count:16231
+2014-10-12 15:38:41 [DEBUG] Quest JSON: Invalid matches count:9149
+2014-10-12 15:38:41 [DEBUG] Quest JSON: Invalid matches count:9149
+2014-10-12 15:38:41 [DEBUG] Quest JSON: Invalid matches count:9149
+2014-10-12 15:38:41 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 15:38:41 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 15:38:41 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 15:38:41 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 15:38:41 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 15:38:41 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 15:38:41 [DEBUG] Quest JSON: Invalid matches count:9216
+2014-10-12 15:38:41 [DEBUG] Quest JSON: Invalid matches count:9216
+2014-10-12 15:38:41 [DEBUG] Quest JSON: Invalid matches count:9216
+2014-10-12 15:38:41 [DEBUG] Npc JSON: Invalid matches count:16205
+2014-10-12 15:38:41 [DEBUG] Npc JSON: Invalid matches count:16205
+2014-10-12 15:38:41 [DEBUG] Npc JSON: Invalid matches count:16205
+2014-10-12 15:38:41 [DEBUG] Npc JSON: Invalid matches count:16205
+2014-10-12 15:38:41 [DEBUG] Npc JSON: Invalid matches count:16205
+2014-10-12 15:38:41 [DEBUG] Npc JSON: Invalid matches count:16205
+2014-10-12 15:38:41 [DEBUG] Quest JSON: Invalid matches count:9193
+2014-10-12 15:38:41 [DEBUG] Quest JSON: Invalid matches count:9193
+2014-10-12 15:38:41 [DEBUG] Quest JSON: Invalid matches count:9193
+2014-10-12 15:38:41 [DEBUG] Npc JSON: Invalid matches count:16289
+2014-10-12 15:38:41 [DEBUG] Npc JSON: Invalid matches count:16289
+2014-10-12 15:38:41 [DEBUG] Npc JSON: Invalid matches count:16289
+2014-10-12 15:38:41 [DEBUG] Npc JSON: Invalid matches count:16289
+2014-10-12 15:38:41 [DEBUG] Npc JSON: Invalid matches count:16289
+2014-10-12 15:38:41 [DEBUG] Npc JSON: Invalid matches count:16289
+2014-10-12 15:38:41 [DEBUG] Quest JSON: Invalid matches count:9156
+2014-10-12 15:38:41 [DEBUG] Quest JSON: Invalid matches count:9156
+2014-10-12 15:38:41 [DEBUG] Quest JSON: Invalid matches count:9156
+2014-10-12 15:38:41 [DEBUG] Npc JSON: Invalid matches count:16200
+2014-10-12 15:38:41 [DEBUG] Npc JSON: Invalid matches count:16200
+2014-10-12 15:38:41 [DEBUG] Npc JSON: Invalid matches count:16200
+2014-10-12 15:38:41 [DEBUG] Quest JSON: Invalid matches count:9130
+2014-10-12 15:38:41 [DEBUG] Quest JSON: Invalid matches count:9130
+2014-10-12 15:38:41 [DEBUG] Quest JSON: Invalid matches count:9130
+2014-10-12 15:38:41 [DEBUG] Npc JSON: Invalid matches count:16261
+2014-10-12 15:38:41 [DEBUG] Npc JSON: Invalid matches count:16261
+2014-10-12 15:38:41 [DEBUG] Npc JSON: Invalid matches count:16261
+2014-10-12 15:38:41 [DEBUG] Npc. Unknown property[16261]:tag
+2014-10-12 15:38:41 [DEBUG] Npc. Unknown property[16261]:tag
+2014-10-12 15:38:41 [DEBUG] Npc. Unknown property[16261]:tag
+2014-10-12 15:38:41 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 15:38:41 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 15:38:41 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 15:38:41 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 15:38:41 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 15:38:41 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 15:38:41 [DEBUG] Quest JSON: Invalid matches count:9133
+2014-10-12 15:38:41 [DEBUG] Quest JSON: Invalid matches count:9133
+2014-10-12 15:38:41 [DEBUG] Quest JSON: Invalid matches count:9133
+2014-10-12 15:38:41 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 15:38:41 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 15:38:41 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 15:38:41 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 15:38:41 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 15:38:41 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 15:38:41 [DEBUG] Npc JSON: Invalid matches count:16191
+2014-10-12 15:38:41 [DEBUG] Npc JSON: Invalid matches count:16191
+2014-10-12 15:38:41 [DEBUG] Npc JSON: Invalid matches count:16191
+2014-10-12 15:38:41 [DEBUG] Npc. Unknown property[16191]:tag
+2014-10-12 15:38:41 [DEBUG] Npc. Unknown property[16191]:tag
+2014-10-12 15:38:41 [DEBUG] Npc. Unknown property[16191]:tag
+2014-10-12 15:38:41 [DEBUG] Quest JSON: Invalid matches count:9134
+2014-10-12 15:38:41 [DEBUG] Quest JSON: Invalid matches count:9134
+2014-10-12 15:38:41 [DEBUG] Quest JSON: Invalid matches count:9134
+2014-10-12 15:38:41 [DEBUG] Npc JSON: Invalid matches count:16191
+2014-10-12 15:38:41 [DEBUG] Npc JSON: Invalid matches count:16191
+2014-10-12 15:38:41 [DEBUG] Npc JSON: Invalid matches count:16191
+2014-10-12 15:38:41 [DEBUG] Npc. Unknown property[16191]:tag
+2014-10-12 15:38:41 [DEBUG] Npc. Unknown property[16191]:tag
+2014-10-12 15:38:41 [DEBUG] Npc. Unknown property[16191]:tag
+2014-10-12 15:38:41 [DEBUG] Npc JSON: Invalid matches count:16192
+2014-10-12 15:38:41 [DEBUG] Npc JSON: Invalid matches count:16192
+2014-10-12 15:38:41 [DEBUG] Npc JSON: Invalid matches count:16192
+2014-10-12 15:38:41 [DEBUG] Npc. Unknown property[16192]:tag
+2014-10-12 15:38:41 [DEBUG] Npc. Unknown property[16192]:tag
+2014-10-12 15:38:41 [DEBUG] Npc. Unknown property[16192]:tag
+2014-10-12 15:38:41 [DEBUG] Quest JSON: Invalid matches count:9135
+2014-10-12 15:38:41 [DEBUG] Quest JSON: Invalid matches count:9135
+2014-10-12 15:38:41 [DEBUG] Quest JSON: Invalid matches count:9135
+2014-10-12 15:38:41 [DEBUG] Npc JSON: Invalid matches count:16192
+2014-10-12 15:38:41 [DEBUG] Npc JSON: Invalid matches count:16192
+2014-10-12 15:38:41 [DEBUG] Npc JSON: Invalid matches count:16192
+2014-10-12 15:38:41 [DEBUG] Npc. Unknown property[16192]:tag
+2014-10-12 15:38:41 [DEBUG] Npc. Unknown property[16192]:tag
+2014-10-12 15:38:41 [DEBUG] Npc. Unknown property[16192]:tag
+2014-10-12 15:38:41 [DEBUG] Npc JSON: Invalid matches count:16261
+2014-10-12 15:38:41 [DEBUG] Npc JSON: Invalid matches count:16261
+2014-10-12 15:38:41 [DEBUG] Npc JSON: Invalid matches count:16261
+2014-10-12 15:38:41 [DEBUG] Npc. Unknown property[16261]:tag
+2014-10-12 15:38:41 [DEBUG] Npc. Unknown property[16261]:tag
+2014-10-12 15:38:41 [DEBUG] Npc. Unknown property[16261]:tag
+2014-10-12 15:38:41 [DEBUG] Quest JSON: Invalid matches count:29180
+2014-10-12 15:38:41 [DEBUG] Quest JSON: Invalid matches count:29180
+2014-10-12 15:38:41 [DEBUG] Quest JSON: Invalid matches count:29180
+2014-10-12 15:38:42 [DEBUG] Npc JSON: Invalid matches count:23559
+2014-10-12 15:38:42 [DEBUG] Npc JSON: Invalid matches count:23559
+2014-10-12 15:38:42 [DEBUG] Npc JSON: Invalid matches count:23559
+2014-10-12 15:38:42 [DEBUG] Npc JSON: Invalid matches count:23559
+2014-10-12 15:38:42 [DEBUG] Npc JSON: Invalid matches count:23559
+2014-10-12 15:38:42 [DEBUG] Npc JSON: Invalid matches count:23559
+2014-10-12 15:38:42 [DEBUG] Quest JSON: Invalid matches count:11164
+2014-10-12 15:38:42 [DEBUG] Quest JSON: Invalid matches count:11164
+2014-10-12 15:38:42 [DEBUG] Quest JSON: Invalid matches count:11164
+2014-10-12 15:38:42 [DEBUG] Npc JSON: Invalid matches count:23761
+2014-10-12 15:38:42 [DEBUG] Npc JSON: Invalid matches count:23761
+2014-10-12 15:38:42 [DEBUG] Npc JSON: Invalid matches count:23761
+2014-10-12 15:38:42 [DEBUG] Npc JSON: Invalid matches count:23761
+2014-10-12 15:38:42 [DEBUG] Npc JSON: Invalid matches count:23761
+2014-10-12 15:38:42 [DEBUG] Npc JSON: Invalid matches count:23761
+2014-10-12 15:38:42 [DEBUG] Npc JSON: Invalid matches count:23761
+2014-10-12 15:38:42 [DEBUG] Npc JSON: Invalid matches count:23761
+2014-10-12 15:38:42 [DEBUG] Npc JSON: Invalid matches count:23761
+2014-10-12 15:38:42 [DEBUG] Npc JSON: Invalid matches count:23897
+2014-10-12 15:38:42 [DEBUG] Npc JSON: Invalid matches count:23897
+2014-10-12 15:38:42 [DEBUG] Npc JSON: Invalid matches count:23897
+2014-10-12 15:38:42 [DEBUG] Npc JSON: Invalid matches count:23858
+2014-10-12 15:38:42 [DEBUG] Npc JSON: Invalid matches count:23858
+2014-10-12 15:38:42 [DEBUG] Npc JSON: Invalid matches count:23858
+2014-10-12 15:38:42 [DEBUG] Npc JSON: Invalid matches count:23858
+2014-10-12 15:38:42 [DEBUG] Npc JSON: Invalid matches count:23858
+2014-10-12 15:38:42 [DEBUG] Npc JSON: Invalid matches count:23858
+2014-10-12 15:38:42 [DEBUG] Quest JSON: Invalid matches count:9812
+2014-10-12 15:38:42 [DEBUG] Quest JSON: Invalid matches count:9812
+2014-10-12 15:38:42 [DEBUG] Quest JSON: Invalid matches count:9812
+2014-10-12 15:38:42 [DEBUG] Npc JSON: Invalid matches count:16802
+2014-10-12 15:38:42 [DEBUG] Npc JSON: Invalid matches count:16802
+2014-10-12 15:38:42 [DEBUG] Npc JSON: Invalid matches count:16802
+2014-10-12 15:38:42 [DEBUG] Npc. Unknown property[16802]:tag
+2014-10-12 15:38:42 [DEBUG] Npc. Unknown property[16802]:tag
+2014-10-12 15:38:42 [DEBUG] Npc. Unknown property[16802]:tag
+2014-10-12 15:38:42 [DEBUG] Npc JSON: Invalid matches count:10181
+2014-10-12 15:38:42 [DEBUG] Npc JSON: Invalid matches count:10181
+2014-10-12 15:38:42 [DEBUG] Npc JSON: Invalid matches count:10181
+2014-10-12 15:38:42 [DEBUG] Npc. Unknown property[10181]:tag
+2014-10-12 15:38:42 [DEBUG] Npc. Unknown property[10181]:tag
+2014-10-12 15:38:42 [DEBUG] Npc. Unknown property[10181]:tag
+2014-10-12 15:38:42 [DEBUG] Quest JSON: Invalid matches count:9491
+2014-10-12 15:38:42 [DEBUG] Quest JSON: Invalid matches count:9491
+2014-10-12 15:38:42 [DEBUG] Quest JSON: Invalid matches count:9491
+2014-10-12 15:38:42 [DEBUG] Quest JSON: Invalid matches count:10548
+2014-10-12 15:38:42 [DEBUG] Quest JSON: Invalid matches count:10548
+2014-10-12 15:38:42 [DEBUG] Quest JSON: Invalid matches count:10548
+2014-10-12 15:38:42 [DEBUG] Quest JSON: Invalid matches count:11130
+2014-10-12 15:38:42 [DEBUG] Quest JSON: Invalid matches count:11130
+2014-10-12 15:38:42 [DEBUG] Quest JSON: Invalid matches count:11130
+2014-10-12 15:38:42 [DEBUG] Npc JSON: Invalid matches count:19227
+2014-10-12 15:38:42 [DEBUG] Npc JSON: Invalid matches count:19227
+2014-10-12 15:38:42 [DEBUG] Npc JSON: Invalid matches count:19227
+2014-10-12 15:38:42 [DEBUG] Npc. Unknown property[19227]:tag
+2014-10-12 15:38:42 [DEBUG] Npc. Unknown property[19227]:tag
+2014-10-12 15:38:42 [DEBUG] Npc. Unknown property[19227]:tag
+2014-10-12 15:38:42 [DEBUG] Npc JSON: Invalid matches count:23559
+2014-10-12 15:38:42 [DEBUG] Npc JSON: Invalid matches count:23559
+2014-10-12 15:38:42 [DEBUG] Npc JSON: Invalid matches count:23559
+2014-10-12 15:38:42 [DEBUG] Quest JSON: Invalid matches count:11178
+2014-10-12 15:38:42 [DEBUG] Quest JSON: Invalid matches count:11178
+2014-10-12 15:38:42 [DEBUG] Quest JSON: Invalid matches count:11178
+2014-10-12 15:38:42 [DEBUG] Npc JSON: Invalid matches count:23559
+2014-10-12 15:38:42 [DEBUG] Npc JSON: Invalid matches count:23559
+2014-10-12 15:38:42 [DEBUG] Npc JSON: Invalid matches count:23559
+2014-10-12 20:33:21 [DEBUG] Quest JSON: Invalid matches count:9327
+2014-10-12 20:33:21 [DEBUG] Quest JSON: Invalid matches count:9327
+2014-10-12 20:33:21 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 20:33:21 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 20:33:21 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 20:33:21 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 20:33:21 [DEBUG] Quest JSON: Invalid matches count:9329
+2014-10-12 20:33:21 [DEBUG] Quest JSON: Invalid matches count:9329
+2014-10-12 20:33:21 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 20:33:21 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 20:33:21 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 20:33:21 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 20:33:21 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 20:33:21 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 20:33:21 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 20:33:21 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 20:33:21 [DEBUG] Quest JSON: Invalid matches count:9130
+2014-10-12 20:33:21 [DEBUG] Quest JSON: Invalid matches count:9130
+2014-10-12 20:33:22 [DEBUG] Npc JSON: Invalid matches count:16261
+2014-10-12 20:33:22 [DEBUG] Npc JSON: Invalid matches count:16261
+2014-10-12 20:33:22 [DEBUG] Npc. Unknown property[16261]:tag
+2014-10-12 20:33:22 [DEBUG] Npc. Unknown property[16261]:tag
+2014-10-12 20:33:22 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 20:33:22 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 20:33:22 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 20:33:22 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 20:33:22 [DEBUG] Quest JSON: Invalid matches count:9133
+2014-10-12 20:33:22 [DEBUG] Quest JSON: Invalid matches count:9133
+2014-10-12 20:33:22 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 20:33:22 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 20:33:22 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 20:33:22 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 20:33:22 [DEBUG] Npc JSON: Invalid matches count:16191
+2014-10-12 20:33:22 [DEBUG] Npc JSON: Invalid matches count:16191
+2014-10-12 20:33:22 [DEBUG] Npc. Unknown property[16191]:tag
+2014-10-12 20:33:22 [DEBUG] Npc. Unknown property[16191]:tag
+2014-10-12 20:33:22 [DEBUG] Npc JSON: Invalid matches count:16240
+2014-10-12 20:33:22 [DEBUG] Npc JSON: Invalid matches count:16240
+2014-10-12 20:33:22 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 20:33:22 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 20:33:22 [DEBUG] Quest JSON: Invalid matches count:9328
+2014-10-12 20:33:22 [DEBUG] Quest JSON: Invalid matches count:9328
+2014-10-12 20:33:22 [DEBUG] Npc JSON: Invalid matches count:16239
+2014-10-12 20:33:22 [DEBUG] Npc JSON: Invalid matches count:16239
+2014-10-12 20:33:22 [DEBUG] Npc JSON: Invalid matches count:16802
+2014-10-12 20:33:22 [DEBUG] Npc JSON: Invalid matches count:16802
+2014-10-12 20:33:22 [DEBUG] Npc. Unknown property[16802]:tag
+2014-10-12 20:33:22 [DEBUG] Npc. Unknown property[16802]:tag
+2014-10-12 20:33:23 [DEBUG] Quest JSON: Invalid matches count:9163
+2014-10-12 20:33:23 [DEBUG] Quest JSON: Invalid matches count:9163
+2014-10-12 20:33:23 [DEBUG] Npc JSON: Invalid matches count:16231
+2014-10-12 20:33:23 [DEBUG] Npc JSON: Invalid matches count:16231
+2014-10-12 20:33:23 [DEBUG] Npc JSON: Invalid matches count:16231
+2014-10-12 20:33:23 [DEBUG] Npc JSON: Invalid matches count:16231
+2014-10-12 20:33:23 [DEBUG] Quest JSON: Invalid matches count:9149
+2014-10-12 20:33:23 [DEBUG] Quest JSON: Invalid matches count:9149
+2014-10-12 20:33:23 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 20:33:23 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 20:33:23 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 20:33:23 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 20:33:23 [DEBUG] Quest JSON: Invalid matches count:9216
+2014-10-12 20:33:23 [DEBUG] Quest JSON: Invalid matches count:9216
+2014-10-12 20:33:23 [DEBUG] Npc JSON: Invalid matches count:16205
+2014-10-12 20:33:23 [DEBUG] Npc JSON: Invalid matches count:16205
+2014-10-12 20:33:23 [DEBUG] Npc JSON: Invalid matches count:16205
+2014-10-12 20:33:23 [DEBUG] Npc JSON: Invalid matches count:16205
+2014-10-12 20:33:23 [DEBUG] Quest JSON: Invalid matches count:9193
+2014-10-12 20:33:23 [DEBUG] Quest JSON: Invalid matches count:9193
+2014-10-12 20:33:23 [DEBUG] Npc JSON: Invalid matches count:16289
+2014-10-12 20:33:23 [DEBUG] Npc JSON: Invalid matches count:16289
+2014-10-12 20:33:23 [DEBUG] Npc JSON: Invalid matches count:16289
+2014-10-12 20:33:23 [DEBUG] Npc JSON: Invalid matches count:16289
+2014-10-12 20:33:23 [DEBUG] Quest JSON: Invalid matches count:9156
+2014-10-12 20:33:23 [DEBUG] Quest JSON: Invalid matches count:9156
+2014-10-12 20:33:24 [DEBUG] Object JSON: Invalid matches count:181147
+2014-10-12 20:33:24 [DEBUG] Object JSON: Invalid matches count:181147
+2014-10-12 20:35:33 [DEBUG] Quest JSON: Invalid matches count:9327
+2014-10-12 20:35:33 [DEBUG] Quest JSON: Invalid matches count:9327
+2014-10-12 20:35:33 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 20:35:33 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 20:35:33 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 20:35:33 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 20:35:33 [DEBUG] Quest JSON: Invalid matches count:9329
+2014-10-12 20:35:33 [DEBUG] Quest JSON: Invalid matches count:9329
+2014-10-12 20:35:33 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 20:35:33 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 20:35:33 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 20:35:33 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 20:35:34 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 20:35:34 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 20:35:34 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 20:35:34 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 20:35:34 [DEBUG] Quest JSON: Invalid matches count:9130
+2014-10-12 20:35:34 [DEBUG] Quest JSON: Invalid matches count:9130
+2014-10-12 20:35:34 [DEBUG] Npc JSON: Invalid matches count:16261
+2014-10-12 20:35:34 [DEBUG] Npc JSON: Invalid matches count:16261
+2014-10-12 20:35:34 [DEBUG] Npc. Unknown property[16261]:tag
+2014-10-12 20:35:34 [DEBUG] Npc. Unknown property[16261]:tag
+2014-10-12 20:35:34 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 20:35:34 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 20:35:34 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 20:35:34 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 20:35:34 [DEBUG] Quest JSON: Invalid matches count:9133
+2014-10-12 20:35:34 [DEBUG] Quest JSON: Invalid matches count:9133
+2014-10-12 20:35:34 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 20:35:34 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 20:35:34 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 20:35:34 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 20:35:34 [DEBUG] Npc JSON: Invalid matches count:16191
+2014-10-12 20:35:34 [DEBUG] Npc JSON: Invalid matches count:16191
+2014-10-12 20:35:34 [DEBUG] Npc. Unknown property[16191]:tag
+2014-10-12 20:35:34 [DEBUG] Npc. Unknown property[16191]:tag
+2014-10-12 20:35:34 [DEBUG] Npc JSON: Invalid matches count:16240
+2014-10-12 20:35:34 [DEBUG] Npc JSON: Invalid matches count:16240
+2014-10-12 20:35:34 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 20:35:34 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 20:35:34 [DEBUG] Quest JSON: Invalid matches count:9328
+2014-10-12 20:35:34 [DEBUG] Quest JSON: Invalid matches count:9328
+2014-10-12 20:35:34 [DEBUG] Npc JSON: Invalid matches count:16239
+2014-10-12 20:35:34 [DEBUG] Npc JSON: Invalid matches count:16239
+2014-10-12 20:35:34 [DEBUG] Npc JSON: Invalid matches count:16802
+2014-10-12 20:35:34 [DEBUG] Npc JSON: Invalid matches count:16802
+2014-10-12 20:35:34 [DEBUG] Npc. Unknown property[16802]:tag
+2014-10-12 20:35:34 [DEBUG] Npc. Unknown property[16802]:tag
+2014-10-12 20:35:35 [DEBUG] Quest JSON: Invalid matches count:9163
+2014-10-12 20:35:35 [DEBUG] Quest JSON: Invalid matches count:9163
+2014-10-12 20:35:35 [DEBUG] Npc JSON: Invalid matches count:16231
+2014-10-12 20:35:35 [DEBUG] Npc JSON: Invalid matches count:16231
+2014-10-12 20:35:35 [DEBUG] Npc JSON: Invalid matches count:16231
+2014-10-12 20:35:35 [DEBUG] Npc JSON: Invalid matches count:16231
+2014-10-12 20:35:35 [DEBUG] Quest JSON: Invalid matches count:9149
+2014-10-12 20:35:35 [DEBUG] Quest JSON: Invalid matches count:9149
+2014-10-12 20:35:35 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 20:35:35 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 20:35:35 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 20:35:35 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 20:35:35 [DEBUG] Quest JSON: Invalid matches count:9216
+2014-10-12 20:35:35 [DEBUG] Quest JSON: Invalid matches count:9216
+2014-10-12 20:35:35 [DEBUG] Npc JSON: Invalid matches count:16205
+2014-10-12 20:35:35 [DEBUG] Npc JSON: Invalid matches count:16205
+2014-10-12 20:35:35 [DEBUG] Npc JSON: Invalid matches count:16205
+2014-10-12 20:35:35 [DEBUG] Npc JSON: Invalid matches count:16205
+2014-10-12 20:35:35 [DEBUG] Quest JSON: Invalid matches count:9193
+2014-10-12 20:35:35 [DEBUG] Quest JSON: Invalid matches count:9193
+2014-10-12 20:35:35 [DEBUG] Npc JSON: Invalid matches count:16289
+2014-10-12 20:35:35 [DEBUG] Npc JSON: Invalid matches count:16289
+2014-10-12 20:35:35 [DEBUG] Npc JSON: Invalid matches count:16289
+2014-10-12 20:35:35 [DEBUG] Npc JSON: Invalid matches count:16289
+2014-10-12 20:35:35 [DEBUG] Quest JSON: Invalid matches count:9156
+2014-10-12 20:35:35 [DEBUG] Quest JSON: Invalid matches count:9156
+2014-10-12 20:35:35 [DEBUG] Object JSON: Invalid matches count:181147
+2014-10-12 20:35:35 [DEBUG] Object JSON: Invalid matches count:181147
+2014-10-12 20:35:35 [DEBUG] Npc JSON: Invalid matches count:16200
+2014-10-12 20:35:35 [DEBUG] Npc JSON: Invalid matches count:16200
+2014-10-12 20:35:35 [DEBUG] Quest JSON: Invalid matches count:9130
+2014-10-12 20:35:35 [DEBUG] Quest JSON: Invalid matches count:9130
+2014-10-12 20:35:35 [DEBUG] Npc JSON: Invalid matches count:16261
+2014-10-12 20:35:35 [DEBUG] Npc JSON: Invalid matches count:16261
+2014-10-12 20:35:35 [DEBUG] Npc. Unknown property[16261]:tag
+2014-10-12 20:35:35 [DEBUG] Npc. Unknown property[16261]:tag
+2014-10-12 20:35:35 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 20:35:35 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 20:35:35 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 20:35:35 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 20:35:35 [DEBUG] Quest JSON: Invalid matches count:9133
+2014-10-12 20:35:35 [DEBUG] Quest JSON: Invalid matches count:9133
+2014-10-12 20:35:36 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 20:35:36 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 20:35:36 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 20:35:36 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 20:35:36 [DEBUG] Npc JSON: Invalid matches count:16191
+2014-10-12 20:35:36 [DEBUG] Npc JSON: Invalid matches count:16191
+2014-10-12 20:35:36 [DEBUG] Npc. Unknown property[16191]:tag
+2014-10-12 20:35:36 [DEBUG] Npc. Unknown property[16191]:tag
+2014-10-12 20:35:36 [DEBUG] Quest JSON: Invalid matches count:9134
+2014-10-12 20:35:36 [DEBUG] Quest JSON: Invalid matches count:9134
+2014-10-12 20:35:36 [DEBUG] Npc JSON: Invalid matches count:16191
+2014-10-12 20:35:36 [DEBUG] Npc JSON: Invalid matches count:16191
+2014-10-12 20:35:36 [DEBUG] Npc. Unknown property[16191]:tag
+2014-10-12 20:35:36 [DEBUG] Npc. Unknown property[16191]:tag
+2014-10-12 20:35:36 [DEBUG] Npc JSON: Invalid matches count:16192
+2014-10-12 20:35:36 [DEBUG] Npc JSON: Invalid matches count:16192
+2014-10-12 20:35:36 [DEBUG] Npc. Unknown property[16192]:tag
+2014-10-12 20:35:36 [DEBUG] Npc. Unknown property[16192]:tag
+2014-10-12 20:35:36 [DEBUG] Quest JSON: Invalid matches count:9135
+2014-10-12 20:35:36 [DEBUG] Quest JSON: Invalid matches count:9135
+2014-10-12 20:35:36 [DEBUG] Npc JSON: Invalid matches count:16192
+2014-10-12 20:35:36 [DEBUG] Npc JSON: Invalid matches count:16192
+2014-10-12 20:35:36 [DEBUG] Npc. Unknown property[16192]:tag
+2014-10-12 20:35:36 [DEBUG] Npc. Unknown property[16192]:tag
+2014-10-12 20:35:36 [DEBUG] Npc JSON: Invalid matches count:16261
+2014-10-12 20:35:36 [DEBUG] Npc JSON: Invalid matches count:16261
+2014-10-12 20:35:36 [DEBUG] Npc. Unknown property[16261]:tag
+2014-10-12 20:35:36 [DEBUG] Npc. Unknown property[16261]:tag
+2014-10-12 20:35:36 [DEBUG] Quest JSON: Invalid matches count:29180
+2014-10-12 20:35:36 [DEBUG] Quest JSON: Invalid matches count:29180
+2014-10-12 20:35:36 [DEBUG] Npc JSON: Invalid matches count:23559
+2014-10-12 20:35:36 [DEBUG] Npc JSON: Invalid matches count:23559
+2014-10-12 20:35:36 [DEBUG] Npc JSON: Invalid matches count:23559
+2014-10-12 20:35:36 [DEBUG] Npc JSON: Invalid matches count:23559
+2014-10-12 20:35:36 [DEBUG] Quest JSON: Invalid matches count:11164
+2014-10-12 20:35:36 [DEBUG] Quest JSON: Invalid matches count:11164
+2014-10-12 20:35:36 [DEBUG] Npc JSON: Invalid matches count:23761
+2014-10-12 20:35:36 [DEBUG] Npc JSON: Invalid matches count:23761
+2014-10-12 20:35:36 [DEBUG] Npc JSON: Invalid matches count:23761
+2014-10-12 20:35:36 [DEBUG] Npc JSON: Invalid matches count:23761
+2014-10-12 20:35:36 [DEBUG] Npc JSON: Invalid matches count:23761
+2014-10-12 20:35:36 [DEBUG] Npc JSON: Invalid matches count:23761
+2014-10-12 20:35:36 [DEBUG] Npc JSON: Invalid matches count:23897
+2014-10-12 20:35:36 [DEBUG] Npc JSON: Invalid matches count:23897
+2014-10-12 20:35:36 [DEBUG] Npc JSON: Invalid matches count:23858
+2014-10-12 20:35:36 [DEBUG] Npc JSON: Invalid matches count:23858
+2014-10-12 20:35:36 [DEBUG] Npc JSON: Invalid matches count:23858
+2014-10-12 20:35:36 [DEBUG] Npc JSON: Invalid matches count:23858
+2014-10-12 20:35:36 [DEBUG] Quest JSON: Invalid matches count:9812
+2014-10-12 20:35:36 [DEBUG] Quest JSON: Invalid matches count:9812
+2014-10-12 20:35:36 [DEBUG] Npc JSON: Invalid matches count:16802
+2014-10-12 20:35:36 [DEBUG] Npc JSON: Invalid matches count:16802
+2014-10-12 20:35:36 [DEBUG] Npc. Unknown property[16802]:tag
+2014-10-12 20:35:36 [DEBUG] Npc. Unknown property[16802]:tag
+2014-10-12 20:35:36 [DEBUG] Npc JSON: Invalid matches count:10181
+2014-10-12 20:35:36 [DEBUG] Npc JSON: Invalid matches count:10181
+2014-10-12 20:35:36 [DEBUG] Npc. Unknown property[10181]:tag
+2014-10-12 20:35:36 [DEBUG] Npc. Unknown property[10181]:tag
+2014-10-12 20:35:36 [DEBUG] Quest JSON: Invalid matches count:9491
+2014-10-12 20:35:36 [DEBUG] Quest JSON: Invalid matches count:9491
+2014-10-12 20:35:36 [DEBUG] Quest JSON: Invalid matches count:10548
+2014-10-12 20:35:36 [DEBUG] Quest JSON: Invalid matches count:10548
+2014-10-12 20:35:37 [DEBUG] Quest JSON: Invalid matches count:11130
+2014-10-12 20:35:37 [DEBUG] Quest JSON: Invalid matches count:11130
+2014-10-12 20:35:37 [DEBUG] Npc JSON: Invalid matches count:19227
+2014-10-12 20:35:37 [DEBUG] Npc JSON: Invalid matches count:19227
+2014-10-12 20:35:37 [DEBUG] Npc. Unknown property[19227]:tag
+2014-10-12 20:35:37 [DEBUG] Npc. Unknown property[19227]:tag
+2014-10-12 20:35:37 [DEBUG] Npc JSON: Invalid matches count:23559
+2014-10-12 20:35:37 [DEBUG] Npc JSON: Invalid matches count:23559
+2014-10-12 20:35:37 [DEBUG] Quest JSON: Invalid matches count:11178
+2014-10-12 20:35:37 [DEBUG] Quest JSON: Invalid matches count:11178
+2014-10-12 20:35:37 [DEBUG] Item JSON: Invalid matches count:33102
+2014-10-12 20:35:37 [DEBUG] Item JSON: Invalid matches count:33102
+2014-10-12 20:38:28 [DEBUG] Quest JSON: Invalid matches count:9327
+2014-10-12 20:38:28 [DEBUG] Quest JSON: Invalid matches count:9327
+2014-10-12 20:38:28 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 20:38:28 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 20:38:28 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 20:38:28 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 20:38:28 [DEBUG] Quest JSON: Invalid matches count:9329
+2014-10-12 20:38:28 [DEBUG] Quest JSON: Invalid matches count:9329
+2014-10-12 20:38:28 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 20:38:28 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 20:38:28 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 20:38:28 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 20:38:28 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 20:38:28 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 20:38:28 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 20:38:28 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 20:38:29 [DEBUG] Quest JSON: Invalid matches count:9130
+2014-10-12 20:38:29 [DEBUG] Quest JSON: Invalid matches count:9130
+2014-10-12 20:38:29 [DEBUG] Npc JSON: Invalid matches count:16261
+2014-10-12 20:38:29 [DEBUG] Npc JSON: Invalid matches count:16261
+2014-10-12 20:38:29 [DEBUG] Npc. Unknown property[16261]:tag
+2014-10-12 20:38:29 [DEBUG] Npc. Unknown property[16261]:tag
+2014-10-12 20:38:29 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 20:38:29 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 20:38:29 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 20:38:29 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 20:38:29 [DEBUG] Quest JSON: Invalid matches count:9133
+2014-10-12 20:38:29 [DEBUG] Quest JSON: Invalid matches count:9133
+2014-10-12 20:38:29 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 20:38:29 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 20:38:29 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 20:38:29 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 20:38:29 [DEBUG] Npc JSON: Invalid matches count:16191
+2014-10-12 20:38:29 [DEBUG] Npc JSON: Invalid matches count:16191
+2014-10-12 20:38:29 [DEBUG] Npc. Unknown property[16191]:tag
+2014-10-12 20:38:29 [DEBUG] Npc. Unknown property[16191]:tag
+2014-10-12 20:38:29 [DEBUG] Npc JSON: Invalid matches count:16240
+2014-10-12 20:38:29 [DEBUG] Npc JSON: Invalid matches count:16240
+2014-10-12 20:38:29 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 20:38:29 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 20:38:29 [DEBUG] Quest JSON: Invalid matches count:9328
+2014-10-12 20:38:29 [DEBUG] Quest JSON: Invalid matches count:9328
+2014-10-12 20:38:29 [DEBUG] Npc JSON: Invalid matches count:16239
+2014-10-12 20:38:29 [DEBUG] Npc JSON: Invalid matches count:16239
+2014-10-12 20:38:29 [DEBUG] Npc JSON: Invalid matches count:16802
+2014-10-12 20:38:29 [DEBUG] Npc JSON: Invalid matches count:16802
+2014-10-12 20:38:29 [DEBUG] Npc. Unknown property[16802]:tag
+2014-10-12 20:38:29 [DEBUG] Npc. Unknown property[16802]:tag
+2014-10-12 20:38:29 [DEBUG] Quest JSON: Invalid matches count:9163
+2014-10-12 20:38:29 [DEBUG] Quest JSON: Invalid matches count:9163
+2014-10-12 20:38:30 [DEBUG] Npc JSON: Invalid matches count:16231
+2014-10-12 20:38:30 [DEBUG] Npc JSON: Invalid matches count:16231
+2014-10-12 20:38:30 [DEBUG] Npc JSON: Invalid matches count:16231
+2014-10-12 20:38:30 [DEBUG] Npc JSON: Invalid matches count:16231
+2014-10-12 20:38:30 [DEBUG] Quest JSON: Invalid matches count:9149
+2014-10-12 20:38:30 [DEBUG] Quest JSON: Invalid matches count:9149
+2014-10-12 20:38:30 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 20:38:30 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 20:38:30 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 20:38:30 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 20:38:30 [DEBUG] Quest JSON: Invalid matches count:9216
+2014-10-12 20:38:30 [DEBUG] Quest JSON: Invalid matches count:9216
+2014-10-12 20:38:30 [DEBUG] Npc JSON: Invalid matches count:16205
+2014-10-12 20:38:30 [DEBUG] Npc JSON: Invalid matches count:16205
+2014-10-12 20:38:30 [DEBUG] Npc JSON: Invalid matches count:16205
+2014-10-12 20:38:30 [DEBUG] Npc JSON: Invalid matches count:16205
+2014-10-12 20:38:30 [DEBUG] Quest JSON: Invalid matches count:9193
+2014-10-12 20:38:30 [DEBUG] Quest JSON: Invalid matches count:9193
+2014-10-12 20:38:30 [DEBUG] Npc JSON: Invalid matches count:16289
+2014-10-12 20:38:30 [DEBUG] Npc JSON: Invalid matches count:16289
+2014-10-12 20:38:30 [DEBUG] Npc JSON: Invalid matches count:16289
+2014-10-12 20:38:30 [DEBUG] Npc JSON: Invalid matches count:16289
+2014-10-12 20:38:30 [DEBUG] Quest JSON: Invalid matches count:9156
+2014-10-12 20:38:30 [DEBUG] Quest JSON: Invalid matches count:9156
+2014-10-12 20:38:30 [DEBUG] Object JSON: Invalid matches count:181147
+2014-10-12 20:38:30 [DEBUG] Object JSON: Invalid matches count:181147
+2014-10-12 20:38:30 [DEBUG] Npc JSON: Invalid matches count:16200
+2014-10-12 20:38:30 [DEBUG] Npc JSON: Invalid matches count:16200
+2014-10-12 20:38:30 [DEBUG] Quest JSON: Invalid matches count:9130
+2014-10-12 20:38:30 [DEBUG] Quest JSON: Invalid matches count:9130
+2014-10-12 20:38:30 [DEBUG] Npc JSON: Invalid matches count:16261
+2014-10-12 20:38:30 [DEBUG] Npc JSON: Invalid matches count:16261
+2014-10-12 20:38:30 [DEBUG] Npc. Unknown property[16261]:tag
+2014-10-12 20:38:30 [DEBUG] Npc. Unknown property[16261]:tag
+2014-10-12 20:38:30 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 20:38:30 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 20:38:30 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 20:38:30 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 20:38:30 [DEBUG] Quest JSON: Invalid matches count:9133
+2014-10-12 20:38:30 [DEBUG] Quest JSON: Invalid matches count:9133
+2014-10-12 20:38:30 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 20:38:30 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 20:38:30 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 20:38:30 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 20:38:30 [DEBUG] Npc JSON: Invalid matches count:16191
+2014-10-12 20:38:30 [DEBUG] Npc JSON: Invalid matches count:16191
+2014-10-12 20:38:30 [DEBUG] Npc. Unknown property[16191]:tag
+2014-10-12 20:38:30 [DEBUG] Npc. Unknown property[16191]:tag
+2014-10-12 20:38:30 [DEBUG] Quest JSON: Invalid matches count:9134
+2014-10-12 20:38:30 [DEBUG] Quest JSON: Invalid matches count:9134
+2014-10-12 20:38:31 [DEBUG] Npc JSON: Invalid matches count:16191
+2014-10-12 20:38:31 [DEBUG] Npc JSON: Invalid matches count:16191
+2014-10-12 20:38:31 [DEBUG] Npc. Unknown property[16191]:tag
+2014-10-12 20:38:31 [DEBUG] Npc. Unknown property[16191]:tag
+2014-10-12 20:38:31 [DEBUG] Npc JSON: Invalid matches count:16192
+2014-10-12 20:38:31 [DEBUG] Npc JSON: Invalid matches count:16192
+2014-10-12 20:38:31 [DEBUG] Npc. Unknown property[16192]:tag
+2014-10-12 20:38:31 [DEBUG] Npc. Unknown property[16192]:tag
+2014-10-12 20:38:31 [DEBUG] Quest JSON: Invalid matches count:9135
+2014-10-12 20:38:31 [DEBUG] Quest JSON: Invalid matches count:9135
+2014-10-12 20:38:31 [DEBUG] Npc JSON: Invalid matches count:16192
+2014-10-12 20:38:31 [DEBUG] Npc JSON: Invalid matches count:16192
+2014-10-12 20:38:31 [DEBUG] Npc. Unknown property[16192]:tag
+2014-10-12 20:38:31 [DEBUG] Npc. Unknown property[16192]:tag
+2014-10-12 20:38:31 [DEBUG] Npc JSON: Invalid matches count:16261
+2014-10-12 20:38:31 [DEBUG] Npc JSON: Invalid matches count:16261
+2014-10-12 20:38:31 [DEBUG] Npc. Unknown property[16261]:tag
+2014-10-12 20:38:31 [DEBUG] Npc. Unknown property[16261]:tag
+2014-10-12 20:38:31 [DEBUG] Quest JSON: Invalid matches count:29180
+2014-10-12 20:38:31 [DEBUG] Quest JSON: Invalid matches count:29180
+2014-10-12 20:38:31 [DEBUG] Npc JSON: Invalid matches count:23559
+2014-10-12 20:38:31 [DEBUG] Npc JSON: Invalid matches count:23559
+2014-10-12 20:38:31 [DEBUG] Npc JSON: Invalid matches count:23559
+2014-10-12 20:38:31 [DEBUG] Npc JSON: Invalid matches count:23559
+2014-10-12 20:38:31 [DEBUG] Quest JSON: Invalid matches count:11164
+2014-10-12 20:38:31 [DEBUG] Quest JSON: Invalid matches count:11164
+2014-10-12 20:38:31 [DEBUG] Npc JSON: Invalid matches count:23761
+2014-10-12 20:38:31 [DEBUG] Npc JSON: Invalid matches count:23761
+2014-10-12 20:38:31 [DEBUG] Npc JSON: Invalid matches count:23761
+2014-10-12 20:38:31 [DEBUG] Npc JSON: Invalid matches count:23761
+2014-10-12 20:38:31 [DEBUG] Npc JSON: Invalid matches count:23761
+2014-10-12 20:38:31 [DEBUG] Npc JSON: Invalid matches count:23761
+2014-10-12 20:38:31 [DEBUG] Npc JSON: Invalid matches count:23897
+2014-10-12 20:38:31 [DEBUG] Npc JSON: Invalid matches count:23897
+2014-10-12 20:38:31 [DEBUG] Npc JSON: Invalid matches count:23858
+2014-10-12 20:38:31 [DEBUG] Npc JSON: Invalid matches count:23858
+2014-10-12 20:38:31 [DEBUG] Npc JSON: Invalid matches count:23858
+2014-10-12 20:38:31 [DEBUG] Npc JSON: Invalid matches count:23858
+2014-10-12 20:38:31 [DEBUG] Quest JSON: Invalid matches count:9812
+2014-10-12 20:38:31 [DEBUG] Quest JSON: Invalid matches count:9812
+2014-10-12 20:38:31 [DEBUG] Npc JSON: Invalid matches count:16802
+2014-10-12 20:38:31 [DEBUG] Npc JSON: Invalid matches count:16802
+2014-10-12 20:38:31 [DEBUG] Npc. Unknown property[16802]:tag
+2014-10-12 20:38:31 [DEBUG] Npc. Unknown property[16802]:tag
+2014-10-12 20:38:31 [DEBUG] Npc JSON: Invalid matches count:10181
+2014-10-12 20:38:31 [DEBUG] Npc JSON: Invalid matches count:10181
+2014-10-12 20:38:31 [DEBUG] Npc. Unknown property[10181]:tag
+2014-10-12 20:38:31 [DEBUG] Npc. Unknown property[10181]:tag
+2014-10-12 20:38:31 [DEBUG] Quest JSON: Invalid matches count:9491
+2014-10-12 20:38:31 [DEBUG] Quest JSON: Invalid matches count:9491
+2014-10-12 20:38:31 [DEBUG] Quest JSON: Invalid matches count:10548
+2014-10-12 20:38:31 [DEBUG] Quest JSON: Invalid matches count:10548
+2014-10-12 20:38:31 [DEBUG] Quest JSON: Invalid matches count:11130
+2014-10-12 20:38:31 [DEBUG] Quest JSON: Invalid matches count:11130
+2014-10-12 20:38:31 [DEBUG] Npc JSON: Invalid matches count:19227
+2014-10-12 20:38:31 [DEBUG] Npc JSON: Invalid matches count:19227
+2014-10-12 20:38:31 [DEBUG] Npc. Unknown property[19227]:tag
+2014-10-12 20:38:31 [DEBUG] Npc. Unknown property[19227]:tag
+2014-10-12 20:38:31 [DEBUG] Npc JSON: Invalid matches count:23559
+2014-10-12 20:38:31 [DEBUG] Npc JSON: Invalid matches count:23559
+2014-10-12 20:38:31 [DEBUG] Quest JSON: Invalid matches count:11178
+2014-10-12 20:38:31 [DEBUG] Quest JSON: Invalid matches count:11178
+2014-10-12 20:38:31 [DEBUG] Item JSON: Invalid matches count:33102
+2014-10-12 20:38:31 [DEBUG] Item JSON: Invalid matches count:33102
+2014-10-12 20:38:31 [DEBUG] Npc JSON: Invalid matches count:23559
+2014-10-12 20:38:31 [DEBUG] Npc JSON: Invalid matches count:23559
+2014-10-12 23:03:03 [DEBUG] Quest JSON: Invalid matches count:9327
+2014-10-12 23:03:03 [DEBUG] Quest JSON: Invalid matches count:9327
+2014-10-12 23:03:03 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 23:03:03 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 23:03:03 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 23:03:03 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 23:03:03 [DEBUG] Quest JSON: Invalid matches count:9329
+2014-10-12 23:03:03 [DEBUG] Quest JSON: Invalid matches count:9329
+2014-10-12 23:03:03 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 23:03:03 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 23:03:03 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 23:03:03 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 23:03:03 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 23:03:03 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 23:03:03 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 23:03:03 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 23:03:04 [DEBUG] Quest JSON: Invalid matches count:9130
+2014-10-12 23:03:04 [DEBUG] Quest JSON: Invalid matches count:9130
+2014-10-12 23:03:04 [DEBUG] Npc JSON: Invalid matches count:16261
+2014-10-12 23:03:04 [DEBUG] Npc JSON: Invalid matches count:16261
+2014-10-12 23:03:04 [DEBUG] Npc. Unknown property[16261]:tag
+2014-10-12 23:03:04 [DEBUG] Npc. Unknown property[16261]:tag
+2014-10-12 23:03:04 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 23:03:04 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 23:03:04 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 23:03:04 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 23:03:04 [DEBUG] Quest JSON: Invalid matches count:9133
+2014-10-12 23:03:04 [DEBUG] Quest JSON: Invalid matches count:9133
+2014-10-12 23:03:04 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 23:03:04 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 23:03:04 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 23:03:04 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 23:03:04 [DEBUG] Npc JSON: Invalid matches count:16191
+2014-10-12 23:03:04 [DEBUG] Npc JSON: Invalid matches count:16191
+2014-10-12 23:03:04 [DEBUG] Npc. Unknown property[16191]:tag
+2014-10-12 23:03:04 [DEBUG] Npc. Unknown property[16191]:tag
+2014-10-12 23:03:04 [DEBUG] Npc JSON: Invalid matches count:16240
+2014-10-12 23:03:04 [DEBUG] Npc JSON: Invalid matches count:16240
+2014-10-12 23:03:04 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 23:03:04 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 23:03:04 [DEBUG] Quest JSON: Invalid matches count:9328
+2014-10-12 23:03:04 [DEBUG] Quest JSON: Invalid matches count:9328
+2014-10-12 23:03:04 [DEBUG] Npc JSON: Invalid matches count:16239
+2014-10-12 23:03:04 [DEBUG] Npc JSON: Invalid matches count:16239
+2014-10-12 23:03:04 [DEBUG] Npc JSON: Invalid matches count:16802
+2014-10-12 23:03:04 [DEBUG] Npc JSON: Invalid matches count:16802
+2014-10-12 23:03:04 [DEBUG] Npc. Unknown property[16802]:tag
+2014-10-12 23:03:04 [DEBUG] Npc. Unknown property[16802]:tag
+2014-10-12 23:03:04 [DEBUG] Quest JSON: Invalid matches count:9163
+2014-10-12 23:03:04 [DEBUG] Quest JSON: Invalid matches count:9163
+2014-10-12 23:03:04 [DEBUG] Npc JSON: Invalid matches count:16231
+2014-10-12 23:03:04 [DEBUG] Npc JSON: Invalid matches count:16231
+2014-10-12 23:03:04 [DEBUG] Npc JSON: Invalid matches count:16231
+2014-10-12 23:03:04 [DEBUG] Npc JSON: Invalid matches count:16231
+2014-10-12 23:03:05 [DEBUG] Quest JSON: Invalid matches count:9149
+2014-10-12 23:03:05 [DEBUG] Quest JSON: Invalid matches count:9149
+2014-10-12 23:03:05 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 23:03:05 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 23:03:05 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 23:03:05 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 23:03:05 [DEBUG] Quest JSON: Invalid matches count:9216
+2014-10-12 23:03:05 [DEBUG] Quest JSON: Invalid matches count:9216
+2014-10-12 23:03:05 [DEBUG] Npc JSON: Invalid matches count:16205
+2014-10-12 23:03:05 [DEBUG] Npc JSON: Invalid matches count:16205
+2014-10-12 23:03:05 [DEBUG] Npc JSON: Invalid matches count:16205
+2014-10-12 23:03:05 [DEBUG] Npc JSON: Invalid matches count:16205
+2014-10-12 23:03:05 [DEBUG] Quest JSON: Invalid matches count:9193
+2014-10-12 23:03:05 [DEBUG] Quest JSON: Invalid matches count:9193
+2014-10-12 23:03:05 [DEBUG] Npc JSON: Invalid matches count:16289
+2014-10-12 23:03:05 [DEBUG] Npc JSON: Invalid matches count:16289
+2014-10-12 23:03:05 [DEBUG] Npc JSON: Invalid matches count:16289
+2014-10-12 23:03:05 [DEBUG] Npc JSON: Invalid matches count:16289
+2014-10-12 23:03:05 [DEBUG] Quest JSON: Invalid matches count:9156
+2014-10-12 23:03:05 [DEBUG] Quest JSON: Invalid matches count:9156
+2014-10-12 23:03:05 [DEBUG] Object JSON: Invalid matches count:181147
+2014-10-12 23:03:05 [DEBUG] Object JSON: Invalid matches count:181147
+2014-10-12 23:03:05 [DEBUG] Npc JSON: Invalid matches count:16200
+2014-10-12 23:03:05 [DEBUG] Npc JSON: Invalid matches count:16200
+2014-10-12 23:03:05 [DEBUG] Quest JSON: Invalid matches count:9130
+2014-10-12 23:03:05 [DEBUG] Quest JSON: Invalid matches count:9130
+2014-10-12 23:03:05 [DEBUG] Npc JSON: Invalid matches count:16261
+2014-10-12 23:03:05 [DEBUG] Npc JSON: Invalid matches count:16261
+2014-10-12 23:03:05 [DEBUG] Npc. Unknown property[16261]:tag
+2014-10-12 23:03:05 [DEBUG] Npc. Unknown property[16261]:tag
+2014-10-12 23:03:05 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 23:03:05 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 23:03:05 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 23:03:05 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 23:03:05 [DEBUG] Quest JSON: Invalid matches count:9133
+2014-10-12 23:03:05 [DEBUG] Quest JSON: Invalid matches count:9133
+2014-10-12 23:03:05 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 23:03:05 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 23:03:05 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 23:03:05 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 23:03:05 [DEBUG] Npc JSON: Invalid matches count:16191
+2014-10-12 23:03:05 [DEBUG] Npc JSON: Invalid matches count:16191
+2014-10-12 23:03:05 [DEBUG] Npc. Unknown property[16191]:tag
+2014-10-12 23:03:05 [DEBUG] Npc. Unknown property[16191]:tag
+2014-10-12 23:03:05 [DEBUG] Quest JSON: Invalid matches count:9134
+2014-10-12 23:03:05 [DEBUG] Quest JSON: Invalid matches count:9134
+2014-10-12 23:03:05 [DEBUG] Npc JSON: Invalid matches count:16191
+2014-10-12 23:03:05 [DEBUG] Npc JSON: Invalid matches count:16191
+2014-10-12 23:03:05 [DEBUG] Npc. Unknown property[16191]:tag
+2014-10-12 23:03:05 [DEBUG] Npc. Unknown property[16191]:tag
+2014-10-12 23:03:05 [DEBUG] Npc JSON: Invalid matches count:16192
+2014-10-12 23:03:05 [DEBUG] Npc JSON: Invalid matches count:16192
+2014-10-12 23:03:05 [DEBUG] Npc. Unknown property[16192]:tag
+2014-10-12 23:03:05 [DEBUG] Npc. Unknown property[16192]:tag
+2014-10-12 23:03:05 [DEBUG] Quest JSON: Invalid matches count:9135
+2014-10-12 23:03:05 [DEBUG] Quest JSON: Invalid matches count:9135
+2014-10-12 23:03:05 [DEBUG] Npc JSON: Invalid matches count:16192
+2014-10-12 23:03:05 [DEBUG] Npc JSON: Invalid matches count:16192
+2014-10-12 23:03:05 [DEBUG] Npc. Unknown property[16192]:tag
+2014-10-12 23:03:05 [DEBUG] Npc. Unknown property[16192]:tag
+2014-10-12 23:03:06 [DEBUG] Npc JSON: Invalid matches count:16261
+2014-10-12 23:03:06 [DEBUG] Npc JSON: Invalid matches count:16261
+2014-10-12 23:03:06 [DEBUG] Npc. Unknown property[16261]:tag
+2014-10-12 23:03:06 [DEBUG] Npc. Unknown property[16261]:tag
+2014-10-12 23:03:06 [DEBUG] Quest JSON: Invalid matches count:29180
+2014-10-12 23:03:06 [DEBUG] Quest JSON: Invalid matches count:29180
+2014-10-12 23:03:06 [DEBUG] Npc JSON: Invalid matches count:23559
+2014-10-12 23:03:06 [DEBUG] Npc JSON: Invalid matches count:23559
+2014-10-12 23:03:06 [DEBUG] Npc JSON: Invalid matches count:23559
+2014-10-12 23:03:06 [DEBUG] Npc JSON: Invalid matches count:23559
+2014-10-12 23:03:06 [DEBUG] Quest JSON: Invalid matches count:11164
+2014-10-12 23:03:06 [DEBUG] Quest JSON: Invalid matches count:11164
+2014-10-12 23:03:06 [DEBUG] Npc JSON: Invalid matches count:23761
+2014-10-12 23:03:06 [DEBUG] Npc JSON: Invalid matches count:23761
+2014-10-12 23:03:06 [DEBUG] Npc JSON: Invalid matches count:23761
+2014-10-12 23:03:06 [DEBUG] Npc JSON: Invalid matches count:23761
+2014-10-12 23:03:06 [DEBUG] Npc JSON: Invalid matches count:23761
+2014-10-12 23:03:06 [DEBUG] Npc JSON: Invalid matches count:23761
+2014-10-12 23:03:06 [DEBUG] Npc JSON: Invalid matches count:23897
+2014-10-12 23:03:06 [DEBUG] Npc JSON: Invalid matches count:23897
+2014-10-12 23:03:06 [DEBUG] Npc JSON: Invalid matches count:23858
+2014-10-12 23:03:06 [DEBUG] Npc JSON: Invalid matches count:23858
+2014-10-12 23:03:06 [DEBUG] Npc JSON: Invalid matches count:23858
+2014-10-12 23:03:06 [DEBUG] Npc JSON: Invalid matches count:23858
+2014-10-12 23:03:06 [DEBUG] Quest JSON: Invalid matches count:9812
+2014-10-12 23:03:06 [DEBUG] Quest JSON: Invalid matches count:9812
+2014-10-12 23:03:06 [DEBUG] Npc JSON: Invalid matches count:16802
+2014-10-12 23:03:06 [DEBUG] Npc JSON: Invalid matches count:16802
+2014-10-12 23:03:06 [DEBUG] Npc. Unknown property[16802]:tag
+2014-10-12 23:03:06 [DEBUG] Npc. Unknown property[16802]:tag
+2014-10-12 23:03:06 [DEBUG] Npc JSON: Invalid matches count:10181
+2014-10-12 23:03:06 [DEBUG] Npc JSON: Invalid matches count:10181
+2014-10-12 23:03:06 [DEBUG] Npc. Unknown property[10181]:tag
+2014-10-12 23:03:06 [DEBUG] Npc. Unknown property[10181]:tag
+2014-10-12 23:03:06 [DEBUG] Quest JSON: Invalid matches count:9491
+2014-10-12 23:03:06 [DEBUG] Quest JSON: Invalid matches count:9491
+2014-10-12 23:03:06 [DEBUG] Quest JSON: Invalid matches count:10548
+2014-10-12 23:03:06 [DEBUG] Quest JSON: Invalid matches count:10548
+2014-10-12 23:03:06 [DEBUG] Quest JSON: Invalid matches count:11130
+2014-10-12 23:03:06 [DEBUG] Quest JSON: Invalid matches count:11130
+2014-10-12 23:03:06 [DEBUG] Npc JSON: Invalid matches count:19227
+2014-10-12 23:03:06 [DEBUG] Npc JSON: Invalid matches count:19227
+2014-10-12 23:03:06 [DEBUG] Npc. Unknown property[19227]:tag
+2014-10-12 23:03:06 [DEBUG] Npc. Unknown property[19227]:tag
+2014-10-12 23:03:06 [DEBUG] Npc JSON: Invalid matches count:23559
+2014-10-12 23:03:06 [DEBUG] Npc JSON: Invalid matches count:23559
+2014-10-12 23:03:06 [DEBUG] Quest JSON: Invalid matches count:11178
+2014-10-12 23:03:06 [DEBUG] Quest JSON: Invalid matches count:11178
+2014-10-12 23:03:06 [DEBUG] Item JSON: Invalid matches count:33102
+2014-10-12 23:03:06 [DEBUG] Item JSON: Invalid matches count:33102
+2014-10-12 23:03:06 [DEBUG] Npc JSON: Invalid matches count:23559
+2014-10-12 23:03:06 [DEBUG] Npc JSON: Invalid matches count:23559
+2014-10-12 23:21:52 [DEBUG] Quest JSON: Invalid matches count:9327
+2014-10-12 23:21:52 [DEBUG] Quest JSON: Invalid matches count:9327
+2014-10-12 23:21:52 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 23:21:52 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 23:36:03 [DEBUG] Quest JSON: Invalid matches count:9327
+2014-10-12 23:36:03 [DEBUG] Quest JSON: Invalid matches count:9327
+2014-10-12 23:36:03 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 23:36:03 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 23:36:03 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 23:36:03 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 23:36:03 [DEBUG] Quest JSON: Invalid matches count:9329
+2014-10-12 23:36:03 [DEBUG] Quest JSON: Invalid matches count:9329
+2014-10-12 23:36:03 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 23:36:03 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 23:36:03 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 23:36:03 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 23:36:03 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 23:36:03 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 23:36:03 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 23:36:03 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 23:36:03 [DEBUG] Quest JSON: Invalid matches count:9130
+2014-10-12 23:36:03 [DEBUG] Quest JSON: Invalid matches count:9130
+2014-10-12 23:36:03 [DEBUG] Npc JSON: Invalid matches count:16261
+2014-10-12 23:36:03 [DEBUG] Npc JSON: Invalid matches count:16261
+2014-10-12 23:36:03 [DEBUG] Npc. Unknown property[16261]:tag
+2014-10-12 23:36:03 [DEBUG] Npc. Unknown property[16261]:tag
+2014-10-12 23:36:03 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 23:36:03 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 23:36:03 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 23:36:03 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 23:36:03 [DEBUG] Quest JSON: Invalid matches count:9133
+2014-10-12 23:36:03 [DEBUG] Quest JSON: Invalid matches count:9133
+2014-10-12 23:36:03 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 23:36:03 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 23:36:03 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 23:36:03 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 23:36:03 [DEBUG] Npc JSON: Invalid matches count:16191
+2014-10-12 23:36:03 [DEBUG] Npc JSON: Invalid matches count:16191
+2014-10-12 23:36:03 [DEBUG] Npc. Unknown property[16191]:tag
+2014-10-12 23:36:03 [DEBUG] Npc. Unknown property[16191]:tag
+2014-10-12 23:36:04 [DEBUG] Npc JSON: Invalid matches count:16240
+2014-10-12 23:36:04 [DEBUG] Npc JSON: Invalid matches count:16240
+2014-10-12 23:36:04 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 23:36:04 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 23:36:04 [DEBUG] Quest JSON: Invalid matches count:9328
+2014-10-12 23:36:04 [DEBUG] Quest JSON: Invalid matches count:9328
+2014-10-12 23:36:04 [DEBUG] Npc JSON: Invalid matches count:16239
+2014-10-12 23:36:04 [DEBUG] Npc JSON: Invalid matches count:16239
+2014-10-12 23:36:04 [DEBUG] Npc JSON: Invalid matches count:16802
+2014-10-12 23:36:04 [DEBUG] Npc JSON: Invalid matches count:16802
+2014-10-12 23:36:04 [DEBUG] Npc. Unknown property[16802]:tag
+2014-10-12 23:36:04 [DEBUG] Npc. Unknown property[16802]:tag
+2014-10-12 23:36:04 [DEBUG] Quest JSON: Invalid matches count:9163
+2014-10-12 23:36:04 [DEBUG] Quest JSON: Invalid matches count:9163
+2014-10-12 23:36:04 [DEBUG] Npc JSON: Invalid matches count:16231
+2014-10-12 23:36:04 [DEBUG] Npc JSON: Invalid matches count:16231
+2014-10-12 23:36:04 [DEBUG] Npc JSON: Invalid matches count:16231
+2014-10-12 23:36:04 [DEBUG] Npc JSON: Invalid matches count:16231
+2014-10-12 23:36:04 [DEBUG] Quest JSON: Invalid matches count:9149
+2014-10-12 23:36:04 [DEBUG] Quest JSON: Invalid matches count:9149
+2014-10-12 23:36:04 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 23:36:04 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 23:36:04 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 23:36:04 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 23:36:04 [DEBUG] Quest JSON: Invalid matches count:9216
+2014-10-12 23:36:04 [DEBUG] Quest JSON: Invalid matches count:9216
+2014-10-12 23:36:04 [DEBUG] Npc JSON: Invalid matches count:16205
+2014-10-12 23:36:04 [DEBUG] Npc JSON: Invalid matches count:16205
+2014-10-12 23:36:04 [DEBUG] Npc JSON: Invalid matches count:16205
+2014-10-12 23:36:04 [DEBUG] Npc JSON: Invalid matches count:16205
+2014-10-12 23:36:05 [DEBUG] Quest JSON: Invalid matches count:9193
+2014-10-12 23:36:05 [DEBUG] Quest JSON: Invalid matches count:9193
+2014-10-12 23:36:05 [DEBUG] Npc JSON: Invalid matches count:16289
+2014-10-12 23:36:05 [DEBUG] Npc JSON: Invalid matches count:16289
+2014-10-12 23:36:05 [DEBUG] Npc JSON: Invalid matches count:16289
+2014-10-12 23:36:05 [DEBUG] Npc JSON: Invalid matches count:16289
+2014-10-12 23:36:05 [DEBUG] Quest JSON: Invalid matches count:9156
+2014-10-12 23:36:05 [DEBUG] Quest JSON: Invalid matches count:9156
+2014-10-12 23:36:05 [DEBUG] Object JSON: Invalid matches count:181147
+2014-10-12 23:36:05 [DEBUG] Object JSON: Invalid matches count:181147
+2014-10-12 23:37:28 [DEBUG] Quest JSON: Invalid matches count:9327
+2014-10-12 23:37:28 [DEBUG] Quest JSON: Invalid matches count:9327
+2014-10-12 23:37:28 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 23:37:28 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 23:37:28 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 23:37:28 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 23:37:28 [DEBUG] Quest JSON: Invalid matches count:9329
+2014-10-12 23:37:28 [DEBUG] Quest JSON: Invalid matches count:9329
+2014-10-12 23:37:28 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 23:37:28 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 23:37:28 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 23:37:28 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 23:37:28 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 23:37:28 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 23:37:28 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 23:37:28 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 23:37:28 [DEBUG] Quest JSON: Invalid matches count:9130
+2014-10-12 23:37:28 [DEBUG] Quest JSON: Invalid matches count:9130
+2014-10-12 23:37:28 [DEBUG] Npc JSON: Invalid matches count:16261
+2014-10-12 23:37:28 [DEBUG] Npc JSON: Invalid matches count:16261
+2014-10-12 23:37:28 [DEBUG] Npc. Unknown property[16261]:tag
+2014-10-12 23:37:28 [DEBUG] Npc. Unknown property[16261]:tag
+2014-10-12 23:37:28 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 23:37:28 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 23:37:28 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 23:37:28 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 23:37:29 [DEBUG] Quest JSON: Invalid matches count:9133
+2014-10-12 23:37:29 [DEBUG] Quest JSON: Invalid matches count:9133
+2014-10-12 23:37:29 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 23:37:29 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 23:37:29 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 23:37:29 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 23:37:29 [DEBUG] Npc JSON: Invalid matches count:16191
+2014-10-12 23:37:29 [DEBUG] Npc JSON: Invalid matches count:16191
+2014-10-12 23:37:29 [DEBUG] Npc. Unknown property[16191]:tag
+2014-10-12 23:37:29 [DEBUG] Npc. Unknown property[16191]:tag
+2014-10-12 23:37:29 [DEBUG] Npc JSON: Invalid matches count:16240
+2014-10-12 23:37:29 [DEBUG] Npc JSON: Invalid matches count:16240
+2014-10-12 23:37:29 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 23:37:29 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 23:37:29 [DEBUG] Quest JSON: Invalid matches count:9328
+2014-10-12 23:37:29 [DEBUG] Quest JSON: Invalid matches count:9328
+2014-10-12 23:37:29 [DEBUG] Npc JSON: Invalid matches count:16239
+2014-10-12 23:37:29 [DEBUG] Npc JSON: Invalid matches count:16239
+2014-10-12 23:37:29 [DEBUG] Npc JSON: Invalid matches count:16802
+2014-10-12 23:37:29 [DEBUG] Npc JSON: Invalid matches count:16802
+2014-10-12 23:37:29 [DEBUG] Npc. Unknown property[16802]:tag
+2014-10-12 23:37:29 [DEBUG] Npc. Unknown property[16802]:tag
+2014-10-12 23:37:29 [DEBUG] Quest JSON: Invalid matches count:9163
+2014-10-12 23:37:29 [DEBUG] Quest JSON: Invalid matches count:9163
+2014-10-12 23:37:29 [DEBUG] Npc JSON: Invalid matches count:16231
+2014-10-12 23:37:29 [DEBUG] Npc JSON: Invalid matches count:16231
+2014-10-12 23:37:29 [DEBUG] Npc JSON: Invalid matches count:16231
+2014-10-12 23:37:29 [DEBUG] Npc JSON: Invalid matches count:16231
+2014-10-12 23:37:30 [DEBUG] Quest JSON: Invalid matches count:9149
+2014-10-12 23:37:30 [DEBUG] Quest JSON: Invalid matches count:9149
+2014-10-12 23:37:30 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 23:37:30 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 23:37:30 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 23:37:30 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 23:37:30 [DEBUG] Quest JSON: Invalid matches count:9216
+2014-10-12 23:37:30 [DEBUG] Quest JSON: Invalid matches count:9216
+2014-10-12 23:37:30 [DEBUG] Npc JSON: Invalid matches count:16205
+2014-10-12 23:37:30 [DEBUG] Npc JSON: Invalid matches count:16205
+2014-10-12 23:37:30 [DEBUG] Npc JSON: Invalid matches count:16205
+2014-10-12 23:37:30 [DEBUG] Npc JSON: Invalid matches count:16205
+2014-10-12 23:37:30 [DEBUG] Quest JSON: Invalid matches count:9193
+2014-10-12 23:37:30 [DEBUG] Quest JSON: Invalid matches count:9193
+2014-10-12 23:37:30 [DEBUG] Npc JSON: Invalid matches count:16289
+2014-10-12 23:37:30 [DEBUG] Npc JSON: Invalid matches count:16289
+2014-10-12 23:37:30 [DEBUG] Npc JSON: Invalid matches count:16289
+2014-10-12 23:37:30 [DEBUG] Npc JSON: Invalid matches count:16289
+2014-10-12 23:37:30 [DEBUG] Quest JSON: Invalid matches count:9156
+2014-10-12 23:37:30 [DEBUG] Quest JSON: Invalid matches count:9156
+2014-10-12 23:37:30 [DEBUG] Object JSON: Invalid matches count:181147
+2014-10-12 23:37:30 [DEBUG] Object JSON: Invalid matches count:181147
+2014-10-12 23:38:23 [DEBUG] Quest JSON: Invalid matches count:9327
+2014-10-12 23:38:23 [DEBUG] Quest JSON: Invalid matches count:9327
+2014-10-12 23:38:23 [DEBUG] Quest JSON: Invalid matches count:9327
+2014-10-12 23:38:23 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 23:38:23 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 23:38:23 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 23:38:23 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 23:38:23 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 23:38:23 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 23:38:23 [DEBUG] Quest JSON: Invalid matches count:9329
+2014-10-12 23:38:23 [DEBUG] Quest JSON: Invalid matches count:9329
+2014-10-12 23:38:23 [DEBUG] Quest JSON: Invalid matches count:9329
+2014-10-12 23:38:23 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 23:38:23 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 23:38:23 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 23:38:23 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 23:38:23 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 23:38:23 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 23:38:23 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 23:38:23 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 23:38:23 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 23:38:23 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 23:38:23 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 23:38:23 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 23:38:23 [DEBUG] Quest JSON: Invalid matches count:9130
+2014-10-12 23:38:23 [DEBUG] Quest JSON: Invalid matches count:9130
+2014-10-12 23:38:23 [DEBUG] Quest JSON: Invalid matches count:9130
+2014-10-12 23:38:23 [DEBUG] Npc JSON: Invalid matches count:16261
+2014-10-12 23:38:23 [DEBUG] Npc JSON: Invalid matches count:16261
+2014-10-12 23:38:23 [DEBUG] Npc JSON: Invalid matches count:16261
+2014-10-12 23:38:23 [DEBUG] Npc. Unknown property[16261]:tag
+2014-10-12 23:38:23 [DEBUG] Npc. Unknown property[16261]:tag
+2014-10-12 23:38:23 [DEBUG] Npc. Unknown property[16261]:tag
+2014-10-12 23:38:23 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 23:38:23 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 23:38:23 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 23:38:23 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 23:38:23 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 23:38:23 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 23:38:23 [DEBUG] Quest JSON: Invalid matches count:9133
+2014-10-12 23:38:23 [DEBUG] Quest JSON: Invalid matches count:9133
+2014-10-12 23:38:23 [DEBUG] Quest JSON: Invalid matches count:9133
+2014-10-12 23:38:23 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 23:38:23 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 23:38:23 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 23:38:23 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 23:38:23 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 23:38:23 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 23:38:23 [DEBUG] Npc JSON: Invalid matches count:16191
+2014-10-12 23:38:23 [DEBUG] Npc JSON: Invalid matches count:16191
+2014-10-12 23:38:23 [DEBUG] Npc JSON: Invalid matches count:16191
+2014-10-12 23:38:23 [DEBUG] Npc. Unknown property[16191]:tag
+2014-10-12 23:38:23 [DEBUG] Npc. Unknown property[16191]:tag
+2014-10-12 23:38:23 [DEBUG] Npc. Unknown property[16191]:tag
+2014-10-12 23:38:24 [DEBUG] Npc JSON: Invalid matches count:16240
+2014-10-12 23:38:24 [DEBUG] Npc JSON: Invalid matches count:16240
+2014-10-12 23:38:24 [DEBUG] Npc JSON: Invalid matches count:16240
+2014-10-12 23:38:24 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 23:38:24 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 23:38:24 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 23:38:24 [DEBUG] Quest JSON: Invalid matches count:9328
+2014-10-12 23:38:24 [DEBUG] Quest JSON: Invalid matches count:9328
+2014-10-12 23:38:24 [DEBUG] Quest JSON: Invalid matches count:9328
+2014-10-12 23:38:24 [DEBUG] Npc JSON: Invalid matches count:16239
+2014-10-12 23:38:24 [DEBUG] Npc JSON: Invalid matches count:16239
+2014-10-12 23:38:24 [DEBUG] Npc JSON: Invalid matches count:16239
+2014-10-12 23:38:24 [DEBUG] Npc JSON: Invalid matches count:16802
+2014-10-12 23:38:24 [DEBUG] Npc JSON: Invalid matches count:16802
+2014-10-12 23:38:24 [DEBUG] Npc JSON: Invalid matches count:16802
+2014-10-12 23:38:24 [DEBUG] Npc. Unknown property[16802]:tag
+2014-10-12 23:38:24 [DEBUG] Npc. Unknown property[16802]:tag
+2014-10-12 23:38:24 [DEBUG] Npc. Unknown property[16802]:tag
+2014-10-12 23:38:24 [DEBUG] Quest JSON: Invalid matches count:9163
+2014-10-12 23:38:24 [DEBUG] Quest JSON: Invalid matches count:9163
+2014-10-12 23:38:24 [DEBUG] Quest JSON: Invalid matches count:9163
+2014-10-12 23:38:24 [DEBUG] Npc JSON: Invalid matches count:16231
+2014-10-12 23:38:24 [DEBUG] Npc JSON: Invalid matches count:16231
+2014-10-12 23:38:24 [DEBUG] Npc JSON: Invalid matches count:16231
+2014-10-12 23:38:24 [DEBUG] Npc JSON: Invalid matches count:16231
+2014-10-12 23:38:24 [DEBUG] Npc JSON: Invalid matches count:16231
+2014-10-12 23:38:24 [DEBUG] Npc JSON: Invalid matches count:16231
+2014-10-12 23:38:24 [DEBUG] Quest JSON: Invalid matches count:9149
+2014-10-12 23:38:24 [DEBUG] Quest JSON: Invalid matches count:9149
+2014-10-12 23:38:24 [DEBUG] Quest JSON: Invalid matches count:9149
+2014-10-12 23:38:25 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 23:38:25 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 23:38:25 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 23:38:25 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 23:38:25 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 23:38:25 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 23:38:25 [DEBUG] Quest JSON: Invalid matches count:9216
+2014-10-12 23:38:25 [DEBUG] Quest JSON: Invalid matches count:9216
+2014-10-12 23:38:25 [DEBUG] Quest JSON: Invalid matches count:9216
+2014-10-12 23:38:25 [DEBUG] Npc JSON: Invalid matches count:16205
+2014-10-12 23:38:25 [DEBUG] Npc JSON: Invalid matches count:16205
+2014-10-12 23:38:25 [DEBUG] Npc JSON: Invalid matches count:16205
+2014-10-12 23:38:25 [DEBUG] Npc JSON: Invalid matches count:16205
+2014-10-12 23:38:25 [DEBUG] Npc JSON: Invalid matches count:16205
+2014-10-12 23:38:25 [DEBUG] Npc JSON: Invalid matches count:16205
+2014-10-12 23:38:25 [DEBUG] Quest JSON: Invalid matches count:9193
+2014-10-12 23:38:25 [DEBUG] Quest JSON: Invalid matches count:9193
+2014-10-12 23:38:25 [DEBUG] Quest JSON: Invalid matches count:9193
+2014-10-12 23:38:25 [DEBUG] Npc JSON: Invalid matches count:16289
+2014-10-12 23:38:25 [DEBUG] Npc JSON: Invalid matches count:16289
+2014-10-12 23:38:25 [DEBUG] Npc JSON: Invalid matches count:16289
+2014-10-12 23:38:25 [DEBUG] Npc JSON: Invalid matches count:16289
+2014-10-12 23:38:25 [DEBUG] Npc JSON: Invalid matches count:16289
+2014-10-12 23:38:25 [DEBUG] Npc JSON: Invalid matches count:16289
+2014-10-12 23:38:25 [DEBUG] Quest JSON: Invalid matches count:9156
+2014-10-12 23:38:25 [DEBUG] Quest JSON: Invalid matches count:9156
+2014-10-12 23:38:25 [DEBUG] Quest JSON: Invalid matches count:9156
+2014-10-12 23:38:25 [DEBUG] Object JSON: Invalid matches count:181147
+2014-10-12 23:38:25 [DEBUG] Object JSON: Invalid matches count:181147
+2014-10-12 23:38:25 [DEBUG] Object JSON: Invalid matches count:181147
+2014-10-12 23:44:48 [DEBUG] Quest JSON: Invalid matches count:9327
+2014-10-12 23:44:48 [DEBUG] Quest JSON: Invalid matches count:9327
+2014-10-12 23:44:48 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 23:44:48 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 23:44:48 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 23:44:48 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 23:44:48 [DEBUG] Quest JSON: Invalid matches count:9329
+2014-10-12 23:44:48 [DEBUG] Quest JSON: Invalid matches count:9329
+2014-10-12 23:44:48 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 23:44:48 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 23:44:48 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 23:44:48 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 23:44:49 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 23:44:49 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 23:44:49 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 23:44:49 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 23:44:49 [DEBUG] Quest JSON: Invalid matches count:9130
+2014-10-12 23:44:49 [DEBUG] Quest JSON: Invalid matches count:9130
+2014-10-12 23:44:49 [DEBUG] Npc JSON: Invalid matches count:16261
+2014-10-12 23:44:49 [DEBUG] Npc JSON: Invalid matches count:16261
+2014-10-12 23:44:49 [DEBUG] Npc. Unknown property[16261]:tag
+2014-10-12 23:44:49 [DEBUG] Npc. Unknown property[16261]:tag
+2014-10-12 23:44:49 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 23:44:49 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 23:44:49 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 23:44:49 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 23:44:49 [DEBUG] Quest JSON: Invalid matches count:9133
+2014-10-12 23:44:49 [DEBUG] Quest JSON: Invalid matches count:9133
+2014-10-12 23:44:49 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 23:44:49 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 23:44:49 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 23:44:49 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 23:44:49 [DEBUG] Npc JSON: Invalid matches count:16191
+2014-10-12 23:44:49 [DEBUG] Npc JSON: Invalid matches count:16191
+2014-10-12 23:44:49 [DEBUG] Npc. Unknown property[16191]:tag
+2014-10-12 23:44:49 [DEBUG] Npc. Unknown property[16191]:tag
+2014-10-12 23:44:49 [DEBUG] Npc JSON: Invalid matches count:16240
+2014-10-12 23:44:49 [DEBUG] Npc JSON: Invalid matches count:16240
+2014-10-12 23:44:49 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 23:44:49 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 23:44:49 [DEBUG] Quest JSON: Invalid matches count:9328
+2014-10-12 23:44:49 [DEBUG] Quest JSON: Invalid matches count:9328
+2014-10-12 23:44:49 [DEBUG] Npc JSON: Invalid matches count:16239
+2014-10-12 23:44:49 [DEBUG] Npc JSON: Invalid matches count:16239
+2014-10-12 23:44:49 [DEBUG] Npc JSON: Invalid matches count:16802
+2014-10-12 23:44:49 [DEBUG] Npc JSON: Invalid matches count:16802
+2014-10-12 23:44:49 [DEBUG] Npc. Unknown property[16802]:tag
+2014-10-12 23:44:49 [DEBUG] Npc. Unknown property[16802]:tag
+2014-10-12 23:44:50 [DEBUG] Quest JSON: Invalid matches count:9163
+2014-10-12 23:44:50 [DEBUG] Quest JSON: Invalid matches count:9163
+2014-10-12 23:44:50 [DEBUG] Npc JSON: Invalid matches count:16231
+2014-10-12 23:44:50 [DEBUG] Npc JSON: Invalid matches count:16231
+2014-10-12 23:44:50 [DEBUG] Npc JSON: Invalid matches count:16231
+2014-10-12 23:44:50 [DEBUG] Npc JSON: Invalid matches count:16231
+2014-10-12 23:44:50 [DEBUG] Quest JSON: Invalid matches count:9149
+2014-10-12 23:44:50 [DEBUG] Quest JSON: Invalid matches count:9149
+2014-10-12 23:44:50 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 23:44:50 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 23:44:50 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 23:44:50 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 23:44:50 [DEBUG] Quest JSON: Invalid matches count:9216
+2014-10-12 23:44:50 [DEBUG] Quest JSON: Invalid matches count:9216
+2014-10-12 23:44:50 [DEBUG] Npc JSON: Invalid matches count:16205
+2014-10-12 23:44:50 [DEBUG] Npc JSON: Invalid matches count:16205
+2014-10-12 23:44:50 [DEBUG] Npc JSON: Invalid matches count:16205
+2014-10-12 23:44:50 [DEBUG] Npc JSON: Invalid matches count:16205
+2014-10-12 23:44:50 [DEBUG] Quest JSON: Invalid matches count:9193
+2014-10-12 23:44:50 [DEBUG] Quest JSON: Invalid matches count:9193
+2014-10-12 23:44:50 [DEBUG] Npc JSON: Invalid matches count:16289
+2014-10-12 23:44:50 [DEBUG] Npc JSON: Invalid matches count:16289
+2014-10-12 23:44:50 [DEBUG] Npc JSON: Invalid matches count:16289
+2014-10-12 23:44:50 [DEBUG] Npc JSON: Invalid matches count:16289
+2014-10-12 23:44:50 [DEBUG] Quest JSON: Invalid matches count:9156
+2014-10-12 23:44:50 [DEBUG] Quest JSON: Invalid matches count:9156
+2014-10-12 23:44:50 [DEBUG] Object JSON: Invalid matches count:181147
+2014-10-12 23:44:50 [DEBUG] Object JSON: Invalid matches count:181147
+2014-10-12 23:44:57 [DEBUG] Object. Can't find Quick Info block:181147
+2014-10-12 23:44:57 [DEBUG] Object. Can't find Quick Info block:181147
+2014-10-12 23:44:57 [DEBUG] Npc JSON: Invalid matches count:16200
+2014-10-12 23:44:57 [DEBUG] Npc JSON: Invalid matches count:16200
+2014-10-12 23:44:57 [DEBUG] Quest JSON: Invalid matches count:9130
+2014-10-12 23:44:57 [DEBUG] Quest JSON: Invalid matches count:9130
+2014-10-12 23:44:57 [DEBUG] Npc JSON: Invalid matches count:16261
+2014-10-12 23:44:57 [DEBUG] Npc JSON: Invalid matches count:16261
+2014-10-12 23:44:57 [DEBUG] Npc. Unknown property[16261]:tag
+2014-10-12 23:44:57 [DEBUG] Npc. Unknown property[16261]:tag
+2014-10-12 23:44:57 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 23:44:57 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 23:44:57 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 23:44:57 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 23:44:57 [DEBUG] Quest JSON: Invalid matches count:9133
+2014-10-12 23:44:57 [DEBUG] Quest JSON: Invalid matches count:9133
+2014-10-12 23:44:57 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 23:44:57 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 23:44:57 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 23:44:57 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 23:44:57 [DEBUG] Npc JSON: Invalid matches count:16191
+2014-10-12 23:44:57 [DEBUG] Npc JSON: Invalid matches count:16191
+2014-10-12 23:44:57 [DEBUG] Npc. Unknown property[16191]:tag
+2014-10-12 23:44:57 [DEBUG] Npc. Unknown property[16191]:tag
+2014-10-12 23:44:57 [DEBUG] Quest JSON: Invalid matches count:9134
+2014-10-12 23:44:57 [DEBUG] Quest JSON: Invalid matches count:9134
+2014-10-12 23:44:57 [DEBUG] Npc JSON: Invalid matches count:16191
+2014-10-12 23:44:57 [DEBUG] Npc JSON: Invalid matches count:16191
+2014-10-12 23:44:57 [DEBUG] Npc. Unknown property[16191]:tag
+2014-10-12 23:44:57 [DEBUG] Npc. Unknown property[16191]:tag
+2014-10-12 23:44:57 [DEBUG] Npc JSON: Invalid matches count:16192
+2014-10-12 23:44:57 [DEBUG] Npc JSON: Invalid matches count:16192
+2014-10-12 23:44:57 [DEBUG] Npc. Unknown property[16192]:tag
+2014-10-12 23:44:57 [DEBUG] Npc. Unknown property[16192]:tag
+2014-10-12 23:44:57 [DEBUG] Quest JSON: Invalid matches count:9135
+2014-10-12 23:44:57 [DEBUG] Quest JSON: Invalid matches count:9135
+2014-10-12 23:44:57 [DEBUG] Npc JSON: Invalid matches count:16192
+2014-10-12 23:44:57 [DEBUG] Npc JSON: Invalid matches count:16192
+2014-10-12 23:44:57 [DEBUG] Npc. Unknown property[16192]:tag
+2014-10-12 23:44:57 [DEBUG] Npc. Unknown property[16192]:tag
+2014-10-12 23:44:57 [DEBUG] Npc JSON: Invalid matches count:16261
+2014-10-12 23:44:57 [DEBUG] Npc JSON: Invalid matches count:16261
+2014-10-12 23:44:57 [DEBUG] Npc. Unknown property[16261]:tag
+2014-10-12 23:44:57 [DEBUG] Npc. Unknown property[16261]:tag
+2014-10-12 23:44:57 [DEBUG] Quest JSON: Invalid matches count:29180
+2014-10-12 23:44:57 [DEBUG] Quest JSON: Invalid matches count:29180
+2014-10-12 23:44:57 [DEBUG] Npc JSON: Invalid matches count:23559
+2014-10-12 23:44:57 [DEBUG] Npc JSON: Invalid matches count:23559
+2014-10-12 23:44:57 [DEBUG] Npc JSON: Invalid matches count:23559
+2014-10-12 23:44:57 [DEBUG] Npc JSON: Invalid matches count:23559
+2014-10-12 23:44:57 [DEBUG] Quest JSON: Invalid matches count:11164
+2014-10-12 23:44:57 [DEBUG] Quest JSON: Invalid matches count:11164
+2014-10-12 23:44:57 [DEBUG] Npc JSON: Invalid matches count:23761
+2014-10-12 23:44:57 [DEBUG] Npc JSON: Invalid matches count:23761
+2014-10-12 23:44:57 [DEBUG] Npc JSON: Invalid matches count:23761
+2014-10-12 23:44:57 [DEBUG] Npc JSON: Invalid matches count:23761
+2014-10-12 23:44:57 [DEBUG] Npc JSON: Invalid matches count:23761
+2014-10-12 23:44:57 [DEBUG] Npc JSON: Invalid matches count:23761
+2014-10-12 23:44:57 [DEBUG] Npc JSON: Invalid matches count:23897
+2014-10-12 23:44:57 [DEBUG] Npc JSON: Invalid matches count:23897
+2014-10-12 23:44:57 [DEBUG] Npc JSON: Invalid matches count:23858
+2014-10-12 23:44:57 [DEBUG] Npc JSON: Invalid matches count:23858
+2014-10-12 23:44:57 [DEBUG] Npc JSON: Invalid matches count:23858
+2014-10-12 23:44:57 [DEBUG] Npc JSON: Invalid matches count:23858
+2014-10-12 23:44:57 [DEBUG] Quest JSON: Invalid matches count:9812
+2014-10-12 23:44:57 [DEBUG] Quest JSON: Invalid matches count:9812
+2014-10-12 23:44:58 [DEBUG] Npc JSON: Invalid matches count:16802
+2014-10-12 23:44:58 [DEBUG] Npc JSON: Invalid matches count:16802
+2014-10-12 23:44:58 [DEBUG] Npc. Unknown property[16802]:tag
+2014-10-12 23:44:58 [DEBUG] Npc. Unknown property[16802]:tag
+2014-10-12 23:44:58 [DEBUG] Npc JSON: Invalid matches count:10181
+2014-10-12 23:44:58 [DEBUG] Npc JSON: Invalid matches count:10181
+2014-10-12 23:44:58 [DEBUG] Npc. Unknown property[10181]:tag
+2014-10-12 23:44:58 [DEBUG] Npc. Unknown property[10181]:tag
+2014-10-12 23:44:58 [DEBUG] Quest JSON: Invalid matches count:9491
+2014-10-12 23:44:58 [DEBUG] Quest JSON: Invalid matches count:9491
+2014-10-12 23:44:58 [DEBUG] Quest JSON: Invalid matches count:10548
+2014-10-12 23:44:58 [DEBUG] Quest JSON: Invalid matches count:10548
+2014-10-12 23:44:58 [DEBUG] Quest JSON: Invalid matches count:11130
+2014-10-12 23:44:58 [DEBUG] Quest JSON: Invalid matches count:11130
+2014-10-12 23:44:58 [DEBUG] Npc JSON: Invalid matches count:19227
+2014-10-12 23:44:58 [DEBUG] Npc JSON: Invalid matches count:19227
+2014-10-12 23:44:58 [DEBUG] Npc. Unknown property[19227]:tag
+2014-10-12 23:44:58 [DEBUG] Npc. Unknown property[19227]:tag
+2014-10-12 23:44:58 [DEBUG] Npc JSON: Invalid matches count:23559
+2014-10-12 23:44:58 [DEBUG] Npc JSON: Invalid matches count:23559
+2014-10-12 23:44:58 [DEBUG] Quest JSON: Invalid matches count:11178
+2014-10-12 23:44:58 [DEBUG] Quest JSON: Invalid matches count:11178
+2014-10-12 23:44:58 [DEBUG] Item JSON: Invalid matches count:33102
+2014-10-12 23:44:58 [DEBUG] Item JSON: Invalid matches count:33102
+2014-10-12 23:44:58 [DEBUG] Npc JSON: Invalid matches count:23559
+2014-10-12 23:44:58 [DEBUG] Npc JSON: Invalid matches count:23559
+2014-10-12 23:45:51 [DEBUG] Quest JSON: Invalid matches count:9327
+2014-10-12 23:45:51 [DEBUG] Quest JSON: Invalid matches count:9327
+2014-10-12 23:45:51 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 23:45:51 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 23:45:51 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 23:45:51 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 23:45:51 [DEBUG] Quest JSON: Invalid matches count:9329
+2014-10-12 23:45:51 [DEBUG] Quest JSON: Invalid matches count:9329
+2014-10-12 23:45:51 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 23:45:51 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 23:45:51 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 23:45:51 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 23:45:51 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 23:45:51 [DEBUG] Npc JSON: Invalid matches count:16252
+2014-10-12 23:45:51 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 23:45:51 [DEBUG] Npc JSON: Invalid matches count:16197
+2014-10-12 23:45:51 [DEBUG] Quest JSON: Invalid matches count:9130
+2014-10-12 23:45:51 [DEBUG] Quest JSON: Invalid matches count:9130
+2014-10-12 23:45:51 [DEBUG] Npc JSON: Invalid matches count:16261
+2014-10-12 23:45:51 [DEBUG] Npc JSON: Invalid matches count:16261
+2014-10-12 23:45:51 [DEBUG] Npc. Unknown property[16261]:tag
+2014-10-12 23:45:51 [DEBUG] Npc. Unknown property[16261]:tag
+2014-10-12 23:45:51 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 23:45:51 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 23:45:51 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 23:45:51 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 23:45:51 [DEBUG] Quest JSON: Invalid matches count:9133
+2014-10-12 23:45:51 [DEBUG] Quest JSON: Invalid matches count:9133
+2014-10-12 23:45:51 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 23:45:51 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 23:45:51 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 23:45:51 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 23:45:51 [DEBUG] Npc JSON: Invalid matches count:16191
+2014-10-12 23:45:51 [DEBUG] Npc JSON: Invalid matches count:16191
+2014-10-12 23:45:51 [DEBUG] Npc. Unknown property[16191]:tag
+2014-10-12 23:45:51 [DEBUG] Npc. Unknown property[16191]:tag
+2014-10-12 23:45:51 [DEBUG] Npc JSON: Invalid matches count:16240
+2014-10-12 23:45:51 [DEBUG] Npc JSON: Invalid matches count:16240
+2014-10-12 23:45:52 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 23:45:52 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 23:45:52 [DEBUG] Quest JSON: Invalid matches count:9328
+2014-10-12 23:45:52 [DEBUG] Quest JSON: Invalid matches count:9328
+2014-10-12 23:45:52 [DEBUG] Npc JSON: Invalid matches count:16239
+2014-10-12 23:45:52 [DEBUG] Npc JSON: Invalid matches count:16239
+2014-10-12 23:45:52 [DEBUG] Npc JSON: Invalid matches count:16802
+2014-10-12 23:45:52 [DEBUG] Npc JSON: Invalid matches count:16802
+2014-10-12 23:45:52 [DEBUG] Npc. Unknown property[16802]:tag
+2014-10-12 23:45:52 [DEBUG] Npc. Unknown property[16802]:tag
+2014-10-12 23:45:52 [DEBUG] Quest JSON: Invalid matches count:9163
+2014-10-12 23:45:52 [DEBUG] Quest JSON: Invalid matches count:9163
+2014-10-12 23:45:52 [DEBUG] Npc JSON: Invalid matches count:16231
+2014-10-12 23:45:52 [DEBUG] Npc JSON: Invalid matches count:16231
+2014-10-12 23:45:52 [DEBUG] Npc JSON: Invalid matches count:16231
+2014-10-12 23:45:52 [DEBUG] Npc JSON: Invalid matches count:16231
+2014-10-12 23:45:52 [DEBUG] Quest JSON: Invalid matches count:9149
+2014-10-12 23:45:52 [DEBUG] Quest JSON: Invalid matches count:9149
+2014-10-12 23:45:52 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 23:45:52 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 23:45:52 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 23:45:52 [DEBUG] Npc JSON: Invalid matches count:16198
+2014-10-12 23:45:52 [DEBUG] Quest JSON: Invalid matches count:9216
+2014-10-12 23:45:52 [DEBUG] Quest JSON: Invalid matches count:9216
+2014-10-12 23:45:52 [DEBUG] Npc JSON: Invalid matches count:16205
+2014-10-12 23:45:52 [DEBUG] Npc JSON: Invalid matches count:16205
+2014-10-12 23:45:52 [DEBUG] Npc JSON: Invalid matches count:16205
+2014-10-12 23:45:52 [DEBUG] Npc JSON: Invalid matches count:16205
+2014-10-12 23:45:52 [DEBUG] Quest JSON: Invalid matches count:9193
+2014-10-12 23:45:52 [DEBUG] Quest JSON: Invalid matches count:9193
+2014-10-12 23:45:52 [DEBUG] Npc JSON: Invalid matches count:16289
+2014-10-12 23:45:52 [DEBUG] Npc JSON: Invalid matches count:16289
+2014-10-12 23:45:52 [DEBUG] Npc JSON: Invalid matches count:16289
+2014-10-12 23:45:52 [DEBUG] Npc JSON: Invalid matches count:16289
+2014-10-12 23:45:53 [DEBUG] Quest JSON: Invalid matches count:9156
+2014-10-12 23:45:53 [DEBUG] Quest JSON: Invalid matches count:9156
+2014-10-12 23:45:53 [DEBUG] Object JSON: Invalid matches count:181147
+2014-10-12 23:45:53 [DEBUG] Object JSON: Invalid matches count:181147
+2014-10-12 23:45:53 [DEBUG] Object. Can't find Quick Info block:181147
+2014-10-12 23:45:53 [DEBUG] Object. Can't find Quick Info block:181147
+2014-10-12 23:45:53 [DEBUG] Npc JSON: Invalid matches count:16200
+2014-10-12 23:45:53 [DEBUG] Npc JSON: Invalid matches count:16200
+2014-10-12 23:45:53 [DEBUG] Quest JSON: Invalid matches count:9130
+2014-10-12 23:45:53 [DEBUG] Quest JSON: Invalid matches count:9130
+2014-10-12 23:45:53 [DEBUG] Npc JSON: Invalid matches count:16261
+2014-10-12 23:45:53 [DEBUG] Npc JSON: Invalid matches count:16261
+2014-10-12 23:45:53 [DEBUG] Npc. Unknown property[16261]:tag
+2014-10-12 23:45:53 [DEBUG] Npc. Unknown property[16261]:tag
+2014-10-12 23:45:53 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 23:45:53 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 23:45:53 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 23:45:53 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 23:45:53 [DEBUG] Quest JSON: Invalid matches count:9133
+2014-10-12 23:45:53 [DEBUG] Quest JSON: Invalid matches count:9133
+2014-10-12 23:45:53 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 23:45:53 [DEBUG] Npc JSON: Invalid matches count:44036
+2014-10-12 23:45:53 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 23:45:53 [DEBUG] Npc. Unknown property[44036]:tag
+2014-10-12 23:45:53 [DEBUG] Npc JSON: Invalid matches count:16191
+2014-10-12 23:45:53 [DEBUG] Npc JSON: Invalid matches count:16191
+2014-10-12 23:45:53 [DEBUG] Npc. Unknown property[16191]:tag
+2014-10-12 23:45:53 [DEBUG] Npc. Unknown property[16191]:tag
+2014-10-12 23:45:53 [DEBUG] Quest JSON: Invalid matches count:9134
+2014-10-12 23:45:53 [DEBUG] Quest JSON: Invalid matches count:9134
+2014-10-12 23:45:53 [DEBUG] Npc JSON: Invalid matches count:16191
+2014-10-12 23:45:53 [DEBUG] Npc JSON: Invalid matches count:16191
+2014-10-12 23:45:53 [DEBUG] Npc. Unknown property[16191]:tag
+2014-10-12 23:45:53 [DEBUG] Npc. Unknown property[16191]:tag
+2014-10-12 23:45:53 [DEBUG] Npc JSON: Invalid matches count:16192
+2014-10-12 23:45:53 [DEBUG] Npc JSON: Invalid matches count:16192
+2014-10-12 23:45:53 [DEBUG] Npc. Unknown property[16192]:tag
+2014-10-12 23:45:53 [DEBUG] Npc. Unknown property[16192]:tag
+2014-10-12 23:45:53 [DEBUG] Quest JSON: Invalid matches count:9135
+2014-10-12 23:45:53 [DEBUG] Quest JSON: Invalid matches count:9135
+2014-10-12 23:45:53 [DEBUG] Npc JSON: Invalid matches count:16192
+2014-10-12 23:45:53 [DEBUG] Npc JSON: Invalid matches count:16192
+2014-10-12 23:45:53 [DEBUG] Npc. Unknown property[16192]:tag
+2014-10-12 23:45:53 [DEBUG] Npc. Unknown property[16192]:tag
+2014-10-12 23:45:53 [DEBUG] Npc JSON: Invalid matches count:16261
+2014-10-12 23:45:53 [DEBUG] Npc JSON: Invalid matches count:16261
+2014-10-12 23:45:53 [DEBUG] Npc. Unknown property[16261]:tag
+2014-10-12 23:45:53 [DEBUG] Npc. Unknown property[16261]:tag
+2014-10-12 23:45:53 [DEBUG] Quest JSON: Invalid matches count:29180
+2014-10-12 23:45:53 [DEBUG] Quest JSON: Invalid matches count:29180
+2014-10-12 23:45:53 [DEBUG] Npc JSON: Invalid matches count:23559
+2014-10-12 23:45:53 [DEBUG] Npc JSON: Invalid matches count:23559
+2014-10-12 23:45:53 [DEBUG] Npc JSON: Invalid matches count:23559
+2014-10-12 23:45:53 [DEBUG] Npc JSON: Invalid matches count:23559
+2014-10-12 23:45:53 [DEBUG] Quest JSON: Invalid matches count:11164
+2014-10-12 23:45:53 [DEBUG] Quest JSON: Invalid matches count:11164
+2014-10-12 23:45:53 [DEBUG] Npc JSON: Invalid matches count:23761
+2014-10-12 23:45:53 [DEBUG] Npc JSON: Invalid matches count:23761
+2014-10-12 23:45:53 [DEBUG] Npc JSON: Invalid matches count:23761
+2014-10-12 23:45:53 [DEBUG] Npc JSON: Invalid matches count:23761
+2014-10-12 23:45:53 [DEBUG] Npc JSON: Invalid matches count:23761
+2014-10-12 23:45:53 [DEBUG] Npc JSON: Invalid matches count:23761
+2014-10-12 23:45:53 [DEBUG] Npc JSON: Invalid matches count:23897
+2014-10-12 23:45:53 [DEBUG] Npc JSON: Invalid matches count:23897
+2014-10-12 23:45:53 [DEBUG] Npc JSON: Invalid matches count:23858
+2014-10-12 23:45:53 [DEBUG] Npc JSON: Invalid matches count:23858
+2014-10-12 23:45:53 [DEBUG] Npc JSON: Invalid matches count:23858
+2014-10-12 23:45:53 [DEBUG] Npc JSON: Invalid matches count:23858
+2014-10-12 23:45:53 [DEBUG] Quest JSON: Invalid matches count:9812
+2014-10-12 23:45:53 [DEBUG] Quest JSON: Invalid matches count:9812
+2014-10-12 23:45:54 [DEBUG] Npc JSON: Invalid matches count:16802
+2014-10-12 23:45:54 [DEBUG] Npc JSON: Invalid matches count:16802
+2014-10-12 23:45:54 [DEBUG] Npc. Unknown property[16802]:tag
+2014-10-12 23:45:54 [DEBUG] Npc. Unknown property[16802]:tag
+2014-10-12 23:45:54 [DEBUG] Npc JSON: Invalid matches count:10181
+2014-10-12 23:45:54 [DEBUG] Npc JSON: Invalid matches count:10181
+2014-10-12 23:45:54 [DEBUG] Npc. Unknown property[10181]:tag
+2014-10-12 23:45:54 [DEBUG] Npc. Unknown property[10181]:tag
+2014-10-12 23:45:54 [DEBUG] Quest JSON: Invalid matches count:9491
+2014-10-12 23:45:54 [DEBUG] Quest JSON: Invalid matches count:9491
+2014-10-12 23:45:54 [DEBUG] Quest JSON: Invalid matches count:10548
+2014-10-12 23:45:54 [DEBUG] Quest JSON: Invalid matches count:10548
+2014-10-12 23:45:54 [DEBUG] Quest JSON: Invalid matches count:11130
+2014-10-12 23:45:54 [DEBUG] Quest JSON: Invalid matches count:11130
+2014-10-12 23:45:54 [DEBUG] Npc JSON: Invalid matches count:19227
+2014-10-12 23:45:54 [DEBUG] Npc JSON: Invalid matches count:19227
+2014-10-12 23:45:54 [DEBUG] Npc. Unknown property[19227]:tag
+2014-10-12 23:45:54 [DEBUG] Npc. Unknown property[19227]:tag
+2014-10-12 23:45:54 [DEBUG] Npc JSON: Invalid matches count:23559
+2014-10-12 23:45:54 [DEBUG] Npc JSON: Invalid matches count:23559
+2014-10-12 23:45:54 [DEBUG] Quest JSON: Invalid matches count:11178
+2014-10-12 23:45:54 [DEBUG] Quest JSON: Invalid matches count:11178
+2014-10-12 23:45:54 [DEBUG] Item JSON: Invalid matches count:33102
+2014-10-12 23:45:54 [DEBUG] Item JSON: Invalid matches count:33102
+2014-10-12 23:45:54 [DEBUG] Npc JSON: Invalid matches count:23559
+2014-10-12 23:45:54 [DEBUG] Npc JSON: Invalid matches count:23559

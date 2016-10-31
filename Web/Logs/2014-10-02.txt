@@ -1,0 +1,1 @@
+﻿2014-10-02 23:18:21 [DEBUG] Can't find valid mn_quests in locale_enus.js

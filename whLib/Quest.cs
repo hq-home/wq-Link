@@ -205,6 +205,8 @@ Added in patch 4.0.3
             // Load Quick Info
             n = htmlDoc.DocumentNode.SelectSingleNode("//div[@id='main-contents']//table[@class='infobox']/tr/td/script/text()");
 
+            // http://wow.gamepedia.com/Badlands_storyline --- null reference
+
             ParseQuickInfo(n.InnerHtml, true);
             // Load Descriptions
             ParseDescription(htmlDoc);  
