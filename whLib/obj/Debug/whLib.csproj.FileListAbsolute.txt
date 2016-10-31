@@ -5,3 +5,10 @@ C:\Projects\WQlink\whLib\bin\Debug\HtmlAgilityPack.pdb
 C:\Projects\WQlink\whLib\obj\Debug\whLib.dll
 C:\Projects\WQlink\whLib\obj\Debug\whLib.pdb
 C:\Projects\WQlink\whLib\obj\Debug\whLib.csprojResolveAssemblyReference.cache
+E:\project\_GitStore\WQlink\whLib\obj\Debug\whLib.csprojResolveAssemblyReference.cache
+E:\project\_GitStore\WQlink\whLib\obj\Debug\whLib.dll
+E:\project\_GitStore\WQlink\whLib\obj\Debug\whLib.pdb
+E:\project\_GitStore\WQlink\whLib\bin\Debug\whLib.dll
+E:\project\_GitStore\WQlink\whLib\bin\Debug\whLib.pdb
+E:\project\_GitStore\WQlink\whLib\bin\Debug\HtmlAgilityPack.dll
+E:\project\_GitStore\WQlink\whLib\bin\Debug\HtmlAgilityPack.pdb

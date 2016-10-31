@@ -54,29 +54,27 @@ namespace Web
 			ddlCat2.PreRender += ddlCat_PreRender;
 			ddlCat.PreRender += ddlCat_PreRender;
 			ddlCat2.SelectedIndexChanged += ddlCat2_SelectedIndexChanged;
-
+			this.ddlCat.SelectedIndexChanged += ddlCat_SelectedIndexChanged;
 			if(!IsPostBack)
 			{
 				InitDDL_Category2();
 				InitDDL_Category();
 			}
-			
 		}
 
 		private void InitDDL_Category()
 		{
-			if(ddlCat.Visible = !string.IsNullOrEmpty(ddlCat2.SelectedValue))
-			{
-				int idx = int.Parse(ddlCat2.SelectedValue);
+			if (ddlCat.Visible == string.IsNullOrEmpty(ddlCat2.SelectedValue)) return;
+			int idx = int.Parse(ddlCat2.SelectedValue);
 
-				ddlCat.DataSource = Category.First(c => c.Id.HasValue && c.Id.Value == idx).Categories;
-				(ddlCat.DataSource as QuestCategoryList).Insert(0, new QuestCategory() { Name = "Not Selected" });
+			ddlCat.DataSource = Category.First(c => c.Id.HasValue && c.Id.Value == idx).Categories;
+			if (ddlCat.Visible = ddlCat.DataSource != null)
+			{
+				(ddlCat.DataSource as QuestCategoryList).Insert(0, new QuestCategory() {Name = "Not Selected"});
 				ddlCat.DataTextField = "Name";
 				ddlCat.DataValueField = "Id";
 				ddlCat.DataBind();
-
 			}
-
 		}
 
 		private void InitDDL_Category2()
@@ -92,6 +90,14 @@ namespace Web
 		protected void ddlCat2_SelectedIndexChanged(object sender, EventArgs e)
 		{
 			InitDDL_Category();
+			if (string.IsNullOrEmpty(ddlCat2.SelectedValue) || ddlCat.Visible)
+				return;
+			BindQuests(ddlCat2.SelectedValue);
+		}
+
+		public void ddlCat_SelectedIndexChanged(object sender, EventArgs e)
+		{
+			BindQuests(ddlCat2.SelectedValue, ddlCat.SelectedValue);
 		}
 
 		protected void ddlCat_PreRender(object sender, EventArgs e)
@@ -106,6 +112,11 @@ namespace Web
 			}
 		}
 
+		protected void BindQuests(string category2, string category = null)
+		{
+			this.rpQLinks.DataSource = Quest.LoadQuestsByCategory(category2, category);
+			this.rpQLinks.DataBind();
+		}
 
 		protected void btnWoWPedia_Click(object sender, EventArgs e)
 		{
@@ -125,9 +136,9 @@ namespace Web
 				Directory.CreateDirectory(wowPediaQuestPath);			
 			}
 
-			if (!Directory.Exists(Path.Combine(Helper.WowHeadDataPath, "Quest")))
+			if (!Directory.Exists(Path.Combine(Entity.WowHeadDataPath, "Quest")))
 			{
-				Directory.CreateDirectory(Path.Combine(Helper.WowHeadDataPath, "Quest"));
+				Directory.CreateDirectory(Path.Combine(Entity.WowHeadDataPath, "Quest"));
 			}
 
 			foreach (HtmlNode node in questLinkColl)
@@ -147,7 +158,7 @@ namespace Web
 
 				int id = int.Parse(sID);
 
-				a.HRef = "http://" + Helper.WowHeadHost + "/quest=" + sID;
+				a.HRef = "http://" + Entity.WowHeadHost + "/quest=" + sID;
 
 				Quest whq = new Quest(id);
 

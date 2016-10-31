@@ -14,8 +14,10 @@ namespace Wowhead
     public enum QuestType
     {
         Normal = 0,
-        Class = 21
-
+        Group = 1,
+        Class = 21,
+        Raid = 62,
+        Dungeon = 81
         /*
          <option value="0">Normal</option>
 <option value="1">Group</option>
@@ -54,6 +56,15 @@ Added in patch 4.0.3
 		 
 		 */
 
+		private bool IsValidId
+		{
+			get { return Id > 0; }
+		}
+
+		/// <summary>
+        /// Where quest arrived from (quest list, zone list - just for GUI )
+        /// </summary>
+        public string SourceType { get; set; }
 
 		/// <summary>
 		/// not clear property
@@ -96,8 +107,7 @@ Added in patch 4.0.3
 		/// </summary>
 		public Map WMap { get; set; }
 
-
-        private List<wClass> _classes = null;
+		private List<wClass> _classes = null;
 		/// <summary>
 		/// Category2: 4
 		/// Category: -61, -81, -82, -141, -161, -162, -261, -262, -263, -372, -395
@@ -113,16 +123,7 @@ Added in patch 4.0.3
 			get { return _races; }
 		}
 
-        //public void AddRace(Race race)
-        //{
-        //    if(_races == null)
-        //    {
-        //        _races = new List<Race>();
-        //    }
-        //    _races.Add(race);
-        //}
-
-		/// <summary>
+        /// <summary>
 		/// Difficulty: 16  17  22  26
 		/// Very Hard, Hard, Normal, Easy
 		/// </summary>
@@ -160,27 +161,30 @@ Added in patch 4.0.3
 
 		#endregion
 
-		public Quest(string html)
+		/*public Quest(string html)
 		{
 			HtmlDocument htmlDoc = new HtmlDocument();
 			htmlDoc.LoadHtml(html);
 			Initialize(htmlDoc);
-		}
+		}*/
+
+        public Quest(string json)
+        {
+            RecomendedGroupOf = 1;
+            Sharable = true;
+            Difficulty = new int[4];
+
+            ParseJSON(json);
+        }
 
 		public Quest(HtmlDocument htmlDoc)
 		{
 			Initialize(htmlDoc);
 		}
 
-		public Quest(string url, string saveTo)
-		{
-			HtmlDocument htmlDoc = Helper.LoadWoWHeadUrl(url, null,/*"quest" ,*/ saveTo);
-			Initialize(htmlDoc);
-		}
-
 		public Quest(int id)
 		{
-			HtmlDocument htmlDoc = Helper.LoadWowHeadEntity("quest", id);
+			HtmlDocument htmlDoc = Entity.LoadWowHeadEntity("quest", id);
 			Initialize(htmlDoc);
 		}
 
@@ -189,73 +193,161 @@ Added in patch 4.0.3
 			RecomendedGroupOf = 1;
             Sharable = true;
             Difficulty = new int[4];
-            string sdoc = htmlDoc.DocumentNode.OuterHtml;
 
-			// //div[@id="main-contents"]/script, parseVar:g_quests
-            // $.extend(g_quests[14449], {"category":215,"category2":1,"id":14449,"level":1,"money":8,"name":"The First Step","reqlevel":1,"side":2,"wflags":160,"xp":40});
             HtmlNode n = htmlDoc.DocumentNode.SelectSingleNode("//div[@id='main-contents']/script[contains(text(), '(g_quests[')]");
 
-            string sn = n.InnerHtml;
+			ParseId(n.InnerHtml);
 
-            //$.extend(g_quests[14449], {"category":215,"category2":1,"id":14449,"level":1,"money":8,"name":"The First Step","reqlevel":1,"side":2,"wflags":160,"xp":40});
-            // new Regex(@"^(?<DayOfWeek>[A-Za-z]{3})\s{1}(?<Month>[A-Za-z]{3})\s{1}(?<Day>\d{2})\s{1}(?<HH>\d{2}):(?<MM>\d{2}):(?<SS>\d{2})\s{1}(?<Year>\d{4})$");
+			if (!IsValidId) return;
 
-            //string strRegex = @"g_quests\[(?<name>[\d]+)]\,\s*\{(?<arr>""(?<key>[\w]+)""\s*:\s*((?<int>([\d]*))|(""(?<str>[\w\s\:\',]*)"")|(?<ident>([\w]*)))?[\,}]\s*)*";
-            //string strRegex = @"g_quests\[(?<id>[\d]+)]\,\s*\{(""(?<key>[\w]+)""\s*:\s*((?<val>([\d]*))|((?<val>""[\w\s\:\',]*""))|(?<val>([\w]*)))?[\,}]\s*)*";
-            //string strRegex = @"g_quests\[(?<id>[\d]+)]\,\s*\{(""([\w]+)""\s*:\s*((?<val>([\d]*))|((?<val>""([\w\s\:\',]|\\""|\\)*""))|(?<val>([\w]*)))?[\,}]\s*)*";
-            //string strRegex = @"g_quests\[(?<id>[\d]+)]\,\s*\{(""(?<key>[\w]+)""\s*:\s*((?<val>([\d]*))|((?<val>""([\w\s\:\',]|\\""|\\)*""))|(?<val>([\w]*)))?[\,}]\s*)*";
-            string strRegex = @"g_quests\[(?<id>[\d]+)]\,\s*\{(""(?<key>[\w]+)""\s*:\s*((?<val>(\-?[\d]*))|((?<val>""([\w\s\:\',]|\\\\|\\""|\\)*""))|(?<val>([\w]*))|(?<val>(\[(\[-?\d+,-?\d+],?)])))?[\,}]\s*)*";
+            ParseJSON(n.InnerHtml.Substring(n.InnerHtml.IndexOf("(g_quests[")));
 
-            //$.extend(g_quests[3094], {"category":-263,"category2":4,"classs":1024,"id":3094,"level":3,"name":"Verdant Note","race":160,"reprewards":[[81,75]],"reqclass":1024,"reqlevel":2,"reqrace":160,"side":2,"type":21,"xp":125});
+            // Load Quick Info
+            n = htmlDoc.DocumentNode.SelectSingleNode("//div[@id='main-contents']//table[@class='infobox']/tr/td/script/text()");
 
-            //$.extend(g_quests[14449], {"category":215,"category2":1,"id":14449,"level":1,"money":8,"name":"The First Step","reqlevel":1,"side":2,"wflags":160,"xp":40});
-            //$.extend(g_quests[6361], {"category":215,"category2":1,"id":6361,"level":7,"name":"A Bundle of Hides","race":32,"reprewards":[[81,25]],"reqlevel":5,"reqrace":32,"side":2,"xp":160});
-            Regex myRegex = new Regex(strRegex, RegexOptions.Compiled);
-            MatchCollection mc = myRegex.Matches(sn);
-            //mc[0].Groups["key"].Captures
-            //mc[0].Groups["val"].Captures
-            //mc[0].Groups["id"].Value
-
-            Match m = mc.Count > 0 ? mc[0] : null;
-            if (m == null || !m.Success)
-            {
-                Helper.LogDebug("Can't parse 1st block:" + sdoc);
-                return;
-                //throw new Exception("Can't parse 1st block:" + sdoc);
-            }
-
-            ParseJSONquest(m);
-
-            n = htmlDoc.DocumentNode.SelectSingleNode("//div[@id='main-contents']/div/table[@class='infobox']/tr/td/script/text()");
-            sn = n.InnerHtml;
-
-            strRegex = @"printHtml\('(?<html>[\w\\\.,]*)'";
-            //  Markup.printHtml('\x5Bul\x5D\x5Bli\x5DLevel\x3A\x201\x5B\x2Fli\x5D\x5Bli\x5DRequires\x20level\x201\x5B\x2Fli\x5D\x5Bli\x5DLoremaster\x3A\x20Yes\x5B\x2Fli\x5D\x5Bli\x5DSide\x3A\x20\x5Bspan\x20class\x3Dicon\x2Dhorde\x5DHorde\x5B\x2Fspan\x5D\x5B\x2Fli\x5D\x5Bli\x5D\x5Bicon\x20name\x3Dquest_start\x5DStart\x3A\x20\x5Burl\x3D\x2Fnpc\x3D2981\x5DChief\x20Hawkwind\x5B\x2Furl\x5D\x5B\x2Ficon\x5D\x5B\x2Fli\x5D\x5Bli\x5D\x5Bicon\x20name\x3Dquest_end\x5DEnd\x3A\x20\x5Burl\x3D\x2Fnpc\x3D2980\x5DGrull\x20Hawkwind\x5B\x2Furl\x5D\x5B\x2Ficon\x5D\x5B\x2Fli\x5D\x5Bli\x5DNot\x20sharable\x5B\x2Fli\x5D\x5Bli\x5DDifficulty\x3A\x20\x5Bcolor\x3Dr2\x5D1\x5B\x2Fcolor\x5D\x5Bsmall\x5D\x20\x26nbsp\x3B\x5B\x2Fsmall\x5D\x5Bcolor\x3Dr3\x5D4\x5B\x2Fcolor\x5D\x5Bsmall\x5D\x20\x26nbsp\x3B\x5B\x2Fsmall\x5D\x5Bcolor\x3Dr4\x5D6\x5B\x2Fcolor\x5D\x5B\x2Fli\x5D\x5Bli\x5DAdded\x20in\x20patch\x204.0.3\x5B\x2Fli\x5D\x5B\x2Ful\x5D', 'infobox-contents0', { allow: Markup.CLASS_STAFF, dbpage: true });
-            myRegex = new Regex(strRegex, RegexOptions.Compiled);
-            mc = myRegex.Matches(sn);
-
-            m = mc.Count > 0 ? mc[0] : null;
-            if (m == null || !m.Success)
-            {
-                Helper.LogDebug("Can't parse 2nd block:" + Id);
-                return;
-                //throw new Exception("Can't parse 2nd block:" + Id);
-            }
-
-            // [ul][li]Level: 1[/li][li]Requires level 1[/li][li]Loremaster: Yes[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest_start]Start: [url=/npc=2981]Chief Hawkwind[/url][/icon][/li][li][icon name=quest_end]End: [url=/npc=2980]Grull Hawkwind[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]1[/color][small] &nbsp;[/small][color=r3]4[/color][small] &nbsp;[/small][color=r4]6[/color][/li][li]Added in patch 4.0.3[/li][/ul]
-            sn = Regex.Unescape(m.Groups["html"].Value);
-            if (!sn.StartsWith("[ul][li]") || !sn.EndsWith("[/li][/ul]"))
-            {
-                Helper.LogDebug("Invalid format of 2nd block[" + Id + "]:" + sn);
-                return;
-                //throw new Exception("Invalid format of 2nd block[" + Id + "]:" + sn);
-            }
-            ParseQuickInfo(sn, true);
-
+            ParseQuickInfo(n.InnerHtml, true);
+            // Load Descriptions
             ParseDescription(htmlDoc);  
 
-
             bool debug = true;
+		}
+
+		private void ParseId(string json)
+		{
+			string strRegex = @"g_quests\[(?<id>[\d]+)]";
+
+			Regex myRegex = new Regex(strRegex, RegexOptions.Compiled);
+			MatchCollection mc = myRegex.Matches(json);
+
+			if (mc.Count < 1 || mc[0].Groups.Count == 0)
+			{
+				Helper.LogDebug("Quest. Can't parse Id:" + json);
+				return;
+			}
+
+			Id = int.Parse(mc[0].Groups["id"].Value);
+		}
+
+		private void ParseJSON(string json)
+        {
+            string strRegex = @"\{(""(?<key>\w+)"":(?<val>-?\d+|\""([\w ':!\-,\.\?]|\\\\|\\""|\\)+\""|\[(\[-?\d+,-?\d+],?)*]),?)+}";
+            //\{("(?<key>[\w]+)"\s*:\s*((?<val>(\-?[\d]*))|((?<val>"([\w \:\'\,!]|\\\\|\\"|\\)*"))|(?<val>(\[(\[-?\d+,-?\d+],?)*])))?,?)*},?
+
+			string sid = IsValidId ? Id.ToString() : json;
+
+            Regex myRegex = new Regex(strRegex, RegexOptions.Compiled);
+            MatchCollection mc = myRegex.Matches(json);
+
+            if (mc.Count == 0)
+            {
+                Helper.LogDebug("Can't parse Quest JSON:" + sid);
+                return ;
+            }
+            if (mc.Count > 1)
+            {
+                Helper.LogDebug("Quest JSON: Invalid matches count:" + sid);
+            }
+            Match m = mc[0];
+            if (!m.Success)
+            {
+				Helper.LogDebug("Can't parse Quest JSON, match is failed:" + sid);
+                return;
+            }
+
+			ParseJSONMatch(m, sid);
+        }
+
+		/// <summary>
+		/// 
+		/// </summary>
+		/// <param name="m"></param>
+		/// <param name="sid">Just for logger</param>
+		private void ParseJSONMatch(Match m, string sid = null)
+		{
+			sid = sid ?? Id.ToString();
+
+			if (m.Groups.Count > 0)
+			{
+				CaptureCollection ccKeys = m.Groups["key"].Captures;
+
+				if (ccKeys.Count < 1)
+				{
+					Helper.LogDebug("Can't parse JSON block:" + sid);
+				}
+				else ParseFoundProperties(ccKeys, m.Groups["val"].Captures, sid);
+			}
+			else Helper.LogDebug("Can't find any match group in JSON block:" + sid);
+		}
+
+		/// <summary>
+		/// 
+		/// </summary>
+		/// <param name="capKeys"></param>
+		/// <param name="capVals"></param>
+		/// <param name="sid">Just for Logger</param>
+		private void ParseFoundProperties(CaptureCollection capKeys, CaptureCollection capVals, string sid)
+		{
+			for (int i = 0; i < capKeys.Count; i++)
+			{
+				Capture capKey = capKeys[i];
+				Capture capVal = capVals[i];
+
+				switch (capKey.Value)
+				{
+					case "category":
+						_categoryId = Helper.ParseInt(capVal.Value);
+						break;
+					case "category2":
+						_category2Id = Helper.ParseInt(capVal.Value);
+						break;
+					case "level":
+						Level = Helper.ParseInt(capVal.Value);
+						break;
+					case "name":
+						Name = Helper.ParseString(capVal.Value);
+						break;
+					case "reqlevel":
+						RequiredLevel = Helper.ParseInt(capVal.Value);
+						break;
+					case "side":
+						Side = (Side)Helper.ParseInt(capVal.Value);
+						break;
+					case "wflags":
+						wflags = Helper.ParseInt(capVal.Value);
+						break;
+					case "reqrace":
+						_races = Race.ParseFlags(Helper.ParseInt(capVal.Value));
+						break;
+					case "reqclass":
+						_classes = wClass.ParseFlags(Helper.ParseInt(capVal.Value));
+						break;
+					case "type":
+						int t = Helper.ParseInt(capVal.Value);
+						if (!Enum.IsDefined(typeof(QuestType), t))
+						{
+							Helper.LogDebug("Unknown Type [" + (Id == 0 ? sid : Id.ToString()) + "]:" + capVal.Value);
+						}
+						else Type = (QuestType)t;
+
+						break;
+					case "id":
+						if (Id == 0)
+							Id = Helper.ParseInt(capVal.Value);
+						break;
+					case "money":
+					case "xp":
+					case "reprewards":
+					case "itemrewards":
+					case "itemchoices":
+                    case "currencyrewards":
+					case "race": // same as reqrace
+					case "classs": // same as reqclass
+						break;
+					default:
+						Helper.LogDebug("Unknown property[" + (Id == 0 ? sid : Id.ToString()) + "]:" + capKey.Value);
+						break;
+				}
+			}
 		}
 
         private void ParseDescription(HtmlDocument htmlDoc)
@@ -283,273 +375,324 @@ Added in patch 4.0.3
             }
         }
 
-        private void ParseJSONquest(Match m)
+        private void ParseQuickInfo(string html, bool force = false)
         {
-            if (m.Groups.Count > 0)
+            string opnQI = "[ul][li]";
+            string clsQI = "[/li][/ul]";
+            string sepQI = "[/li][li]";
+
+            Regex myRegex = new Regex(@"printHtml\('(?<html>[\w\\\.,]*)'", RegexOptions.Compiled);
+            MatchCollection mc = myRegex.Matches(html);
+
+            Match m = mc.Count > 0 ? mc[0] : null;
+            if (m == null || !m.Success)
             {
-                Id = int.Parse(m.Groups["id"].Value);
-
-                Group gKey = m.Groups["key"];
-                CaptureCollection gValCap = m.Groups["val"].Captures;
-
-                if (gKey.Captures.Count < 1)
-                {
-                    Helper.LogDebug("Can't parse 1st block:" + Id);
-                    //throw new Exception("Can't parse 1st block:" + Id);
-                }
-                else
-                    for (int i = 0; i < gKey.Captures.Count; i++)
-                    {
-                        Capture c = gKey.Captures[i];
-
-                        switch (c.Value)
-                        {
-                            case "category":
-                                _categoryId = Helper.ParseInt(gValCap[i].Value);
-                                break;
-                            case "category2":
-                                _category2Id = Helper.ParseInt(gValCap[i].Value);
-                                break;
-                            case "level":
-                                Level = Helper.ParseInt(gValCap[i].Value);
-                                break;
-                            case "name":
-								Name = Helper.ParseString(gValCap[i].Value);
-                                break;
-                            case "reqlevel":
-                                RequiredLevel = Helper.ParseInt(gValCap[i].Value);
-                                break;
-                            case "side":
-                                Side = (Side)Helper.ParseInt(gValCap[i].Value);
-                                break;
-                            case "wflags":
-                                wflags = Helper.ParseInt(gValCap[i].Value);
-                                break;
-                            case "reqrace":
-                                _races = Race.ParseFlags(Helper.ParseInt(gValCap[i].Value));
-                                break;
-                            case "reqclass":
-                                _classes = wClass.ParseFlags(Helper.ParseInt(gValCap[i].Value));
-                                break;
-                            case "type":
-                                int t = Helper.ParseInt(gValCap[i].Value);
-                                if (!Enum.IsDefined(typeof(QuestType), t))
-                                {
-                                    Helper.LogDebug("Unknown Type [" + Id + "]:" + gValCap[i].Value);
-                                }
-                                else Type = (QuestType)t;
-
-                                break;
-                            case "id": // got already
-                            case "money":
-                            case "xp":
-                            case "reprewards":
-                            case "itemrewards":
-                            case "race": // same as reqrace
-                            case "classs": // same as reqclass
-                                break;
-                            default:
-                                Helper.LogDebug("Unknown property[" + Id + "]:" + c.Value);
-                                //throw new Exception("Unknown property[" + Id + "]:" + c.Value);
-                                break;
-                        }
-                        int a = 0;
-
-                    }
+                Helper.LogDebug("Can't parse Quick Info block:" + Id);
+                return;
             }
-        }
 
-        private void ParseQuickInfo(string sn, bool force = false)
-        {
-            Regex myRegex = null;
-            MatchCollection mc = null;
-            Match m = null;
+            string phtml = Regex.Unescape(m.Groups["html"].Value);
+            if (!phtml.StartsWith(opnQI) || !phtml.EndsWith(clsQI))
+            {
+                Helper.LogDebug("Invalid format of Quick Info block[" + Id + "]:" + phtml);
+                return;
+            }
 
-            string[] lines = sn.Substring("[ul][li]".Length, sn.Length - "[ul][li]".Length - "[/li][/ul]".Length)
-                    .Split(new string[] { "[/li][li]" }, StringSplitOptions.RemoveEmptyEntries);
-            /*
-             *  [ul][li]Level: 1
-             * [/li][li]Requires level 1
-             * [/li][li]Loremaster: Yes
-             * [/li][li]Side: [span class=icon-horde]Horde[/span]
-             * [/li][li][icon name=quest_start]Start: [url=/npc=2981]Chief Hawkwind[/url][/icon]
-             * [/li][li][icon name=quest_end]End: [url=/npc=2980]Grull Hawkwind[/url][/icon]
-             * [/li][li]Not sharable
-             * [/li][li]Difficulty: [color=r2]1[/color][small] &nbsp;[/small][color=r3]4[/color][small] &nbsp;[/small][color=r4]6[/color]
-             * [/li][li]Added in patch 4.0.3
-             */
+            string[] lines = phtml.Substring(opnQI.Length, phtml.Length - opnQI.Length - clsQI.Length)
+                    .Split(new string[] { sepQI }, StringSplitOptions.RemoveEmptyEntries);
+           
             for (int i = 0; i < lines.Length; i++)
             {
                 string l = lines[i].TrimEnd();
-                int idx = 0, k = 0, val = -1;
+                int idx = 0, k, j;
                 while (idx < l.Length && (Char.IsLetterOrDigit(l[idx])
                     || idx == 0 && l[idx] == '[')) idx++;
 
                 string key = l.Substring(0, idx).ToLower();
 
-                int j = 0;
-
-                switch (key)
-                {
-                    case "level":
-                        if (force || Level < 1)
-                        {
-                            k = l.Length - 1;
-                            while (Char.IsDigit(l[k])) k--;
-                            Level = Helper.ParseInt(l.Substring(k + 1));
-                        }
-                        break;
-                    case "requires":
-                        if (force || RequiredLevel < 1)
-                        {
-                            k = l.Length - 1;
-                            while (Char.IsDigit(l[k])) k--;
-                            Level = Helper.ParseInt(l.Substring(k + 1));
-                        }
-                        break;
-                    case "loremaster":
-                        Loremaster = true;
-                        break;
-                    case "side": //](?<side>\w+)\[
-                        if (force || (int)Side == -1)
-                        {
-                            myRegex = new Regex(@"](?<side>\w+)\[", RegexOptions.Compiled);
-                            mc = myRegex.Matches(l);
-
-                            m = mc.Count > 0 ? mc[0] : null;
-                            if (m == null || !m.Success)
-                            {
-                                Helper.LogDebug("Can't parse QI Side[" + Id + "]:" + l);
-                                //throw new Exception("Can't parse Quick Info[" + Id + "]:" + l);
-                            }
-                            Side = (Side)Enum.Parse(typeof(Side), m.Groups["side"].Value);
-                        }
-                        break;
-                    case "[icon": //](?<key>\w+):\s*\[url=/(?<type>\w*)=(?<id>\d+)]
-                        //start, end
-                        myRegex = new Regex(@"](?<key>\w+):\s*\[(url=/)?(?<type>\w*)=(?<id>\d+)]", RegexOptions.Compiled);
-                        mc = myRegex.Matches(l);
-
-                        m = mc.Count > 0 ? mc[0] : null;
-                        if (m == null || !m.Success)
-                            Helper.LogDebug("Can't parse QI Icon[" + Id + "]:" + l);
-                            //throw new Exception("Can't parse Quick Info[" + Id + "]:" + l);
-
-                        Group gKey = m.Groups["key"];
-                        CaptureCollection gTypeCap = m.Groups["type"].Captures;
-                        CaptureCollection gIdCap = m.Groups["id"].Captures;
-                        for (j = 0; j < gKey.Captures.Count; j++)
-                        {
-                            Capture c = gKey.Captures[j];
-
-                            switch (c.Value.ToLower())
-                            {
-                                case "start":
-                                    QuestGiver = Helper.GetInteractEntity(Helper.ParseInt(gIdCap[j].Value), gTypeCap[j].Value);
-                                    break;
-                                case "end":
-                                    QuestTurnIn = Helper.GetInteractEntity(Helper.ParseInt(gIdCap[j].Value), gTypeCap[j].Value);
-                                    break;
-                                default:
-                                    Helper.LogDebug("Unknown QI line[" + Id + "]:" + l);
-                                    break;
-                            }
-                        }
-
-                        break;
-                    case "not":
-                        l = l.Substring(3).Trim().ToLower();
-                        if (l == "sharable")
-                            Sharable = false;
-                        else
-                            Helper.LogDebug("Unknown sub 'not' key[" + Id + "]:" + l);
-                        //throw new Exception("Unknown sub 'not' key[" + Id + "]:" + l);
-                        break;
-                    case "difficulty": // r(?<d>\d)](?<level>\d+)\[
-                        myRegex = new Regex(@"r(?<d>\d)](?<level>\d+)\[", RegexOptions.Compiled);
-                        mc = myRegex.Matches(l);
-
-                        for (j = 0; j < mc.Count; j++)
-                        {
-                            if (!mc[j].Success)
-                                Helper.LogDebug("Can't parse QI difficulty[" + Id + "]:" + l);
-                                //throw new Exception("Can't parse Quick Info[" + Id + "]:" + l);
-
-                            Group gIdx = mc[j].Groups["d"];
-                            CaptureCollection gLevelCap = mc[j].Groups["level"].Captures;
-
-                            idx = Helper.ParseInt(gIdx.Captures[0].Value) - 1;
-                            Difficulty[idx] = Helper.ParseInt(gLevelCap[0].Value);
-                        }
-                        break;
-                    case "added":
-                        k = l.Length - 1;
-                        while (Char.IsDigit(l[k]) || l[k] == '.') k--;
-                        AddedIn = l.Substring(k + 1);
-                        break;
-                    case "type":
-                        string lt = l.Substring("Type:".Length).Trim();
-                        QuestType qt = (QuestType)(-1);
-                        if (!Enum.TryParse<QuestType>(lt, out qt))
-                        {
-                            Helper.LogDebug("Unknown QI Type [" + Id + "]:" + lt);
-                        }
-                        else
-                            if (force || Type == QuestType.Normal)
-                                Type = qt;
-                        break;
-                    case "race":// =\d+
-                    case "races":// =\d+
-                        if (force || _races == null)
-                        {
-                            myRegex = new Regex(@"=(?<id>\d+)", RegexOptions.Compiled);
-                            mc = myRegex.Matches(l);
-                            _races = new List<Race>();
-
-                            for (j = 0; j < mc.Count; j++)
-                            {
-                                if (!mc[j].Success)
-                                    Helper.LogDebug("Can't parse QI Races[" + Id + "]:" + l);
-
-                                _races.Add(Race.GetById(Helper.ParseInt(mc[j].Groups["id"].Captures[0].Value)));
-                            }
-                        }
-                        break;
-                    case "class":// =\d+
-                        if (force || _classes == null)
-                        {
-                            myRegex = new Regex(@"=(?<id>\d+)", RegexOptions.Compiled);
-                            mc = myRegex.Matches(l);
-                            _classes = new List<wClass>();
-
-                            for (j = 0; j < mc.Count; j++)
-                            {
-                                if (!mc[j].Success)
-                                    Helper.LogDebug("Can't parse QI Races[" + Id + "]:" + l);
-
-                                _classes.Add(wClass.GetById(Helper.ParseInt(mc[j].Groups["id"].Captures[0].Value)));
-                            }
-                        }
-                        break;
-                    case "sharable": // by default - sharable
-                        break;
-                    default:
-                        Helper.LogDebug("Unknown key[" + Id + "]:" + key);
-                        //throw new Exception("Unknown key[" + Id + "]:" + key);
-                        break;
-                }
-
+                ProcessQIKey(key, idx, l, force);
             }
 
         }
 
-        
+        private void ProcessQIKey(string key, int pos, string line, bool force = false)
+        {
+            Regex myRegex = null;
+            MatchCollection mc = null;
+            Match m = null;
+            int j, k;
 
-		
+            switch (key)
+            {
+                case "level":
+                    if (force || Level < 1)
+                    {
+                        k = line.Length - 1;
+                        while (Char.IsDigit(line[k])) k--;
+                        Level = Helper.ParseInt(line.Substring(k + 1));
+                    }
+                    break;
+                case "requires":
+                    if (force || RequiredLevel < 1)
+                    {
+                        k = line.Length - 1;
+                        while (Char.IsDigit(line[k])) k--;
+                        Level = Helper.ParseInt(line.Substring(k + 1));
+                    }
+                    break;
+                case "loremaster":
+                    Loremaster = true;
+                    break;
+                case "side":
+                    if (force || (int)Side == -1)
+                    {
+                        myRegex = new Regex(@"](?<side>\w+)\[", RegexOptions.Compiled);
+                        mc = myRegex.Matches(line);
 
-		
+                        m = mc.Count > 0 ? mc[0] : null;
+                        if (m == null || !m.Success)
+                        {
+                            line = line.Substring(pos + 1).Trim();
+                        }
+                        else line = m.Groups["side"].Value;
+                        Side _dside = (Wowhead.Side)(-1);
+
+                        if (!Enum.TryParse(line, true, out _dside))
+                        {
+                            Helper.LogDebug("Can't parse QI Side[" + Id + "]:" + line);
+                        }
+                        else
+                            Side = _dside;
+                    }
+                    break;
+                case "[icon":
+                    myRegex = new Regex(@"](?<key>\w+):\s*\[(url=/)?(?<type>\w*)=(?<id>\d+)]", RegexOptions.Compiled);
+                    mc = myRegex.Matches(line);
+
+                    m = mc.Count > 0 ? mc[0] : null;
+                    if (m == null || !m.Success)
+                        Helper.LogDebug("Can't parse QI Icon[" + Id + "]:" + line);
+
+                    Group gKey = m.Groups["key"];
+                    CaptureCollection gTypeCap = m.Groups["type"].Captures;
+                    CaptureCollection gIdCap = m.Groups["id"].Captures;
+                    for (j = 0; j < gKey.Captures.Count; j++)
+                    {
+                        Capture c = gKey.Captures[j];
+
+                        switch (c.Value.ToLower())
+                        {
+                            case "start":
+                                QuestGiver = Helper.GetInteractEntity(Helper.ParseInt(gIdCap[j].Value), gTypeCap[j].Value);
+                                break;
+                            case "end":
+                                QuestTurnIn = Helper.GetInteractEntity(Helper.ParseInt(gIdCap[j].Value), gTypeCap[j].Value);
+                                break;
+                            default:
+                                Helper.LogDebug("Unknown QI line[" + Id + "]:" + line);
+                                break;
+                        }
+                    }
+
+                    break;
+                case "not":
+                    line = line.Substring(3).Trim().ToLower();
+                    if (line == "sharable")
+                        Sharable = false;
+                    else
+                        Helper.LogDebug("Unknown sub 'not' key[" + Id + "]:" + line);
+                    break;
+                case "difficulty":
+                    myRegex = new Regex(@"r(?<d>\d)](?<level>\d+)\[", RegexOptions.Compiled);
+                    mc = myRegex.Matches(line);
+
+                    for (j = 0; j < mc.Count; j++)
+                    {
+                        if (!mc[j].Success)
+                            Helper.LogDebug("Can't parse QI difficulty[" + Id + "]:" + line);
+
+                        Group gIdx = mc[j].Groups["d"];
+                        CaptureCollection gLevelCap = mc[j].Groups["level"].Captures;
+
+                        pos = Helper.ParseInt(gIdx.Captures[0].Value) - 1;
+                        Difficulty[pos] = Helper.ParseInt(gLevelCap[0].Value);
+                    }
+                    break;
+                case "added":
+                    k = line.Length - 1;
+                    while (Char.IsDigit(line[k]) || line[k] == '.') k--;
+                    AddedIn = line.Substring(k + 1);
+                    break;
+                case "type":
+                    string lt = line.Substring("Type:".Length).Trim();
+                    QuestType qt = (QuestType)(-1);
+                    if (!Enum.TryParse(lt, out qt))
+                    {
+                        Helper.LogDebug("Unknown QI Type [" + Id + "]:" + lt);
+                    }
+                    else
+                        if (force || Type == QuestType.Normal)
+                            Type = qt;
+                    break;
+                case "race":
+                case "races":
+                    if (force || _races == null)
+                    {
+                        myRegex = new Regex(@"=(?<id>\d+)", RegexOptions.Compiled);
+                        mc = myRegex.Matches(line);
+                        _races = new List<Race>();
+
+                        for (j = 0; j < mc.Count; j++)
+                        {
+                            if (!mc[j].Success)
+                                Helper.LogDebug("Can't parse QI Races[" + Id + "]:" + line);
+
+                            _races.Add(Race.GetById(Helper.ParseInt(mc[j].Groups["id"].Captures[0].Value)));
+                        }
+                    }
+                    break;
+                case "class":
+                    if (force || _classes == null)
+                    {
+                        myRegex = new Regex(@"=(?<id>\d+)", RegexOptions.Compiled);
+                        mc = myRegex.Matches(line);
+                        _classes = new List<wClass>();
+
+                        for (j = 0; j < mc.Count; j++)
+                        {
+                            if (!mc[j].Success)
+                                Helper.LogDebug("Can't parse QI Races[" + Id + "]:" + line);
+
+                            _classes.Add(wClass.GetById(Helper.ParseInt(mc[j].Groups["id"].Captures[0].Value)));
+                        }
+                    }
+                    break;
+                case "sharable": // by default - sharable
+                    break;
+                default:
+                    Helper.LogDebug("Unknown key[" + Id + "]:" + key);
+                    break;
+            }
+        }
+
+        public static List<Quest> LoadQuestsByFilter(string filter)
+        {
+            string xpQuestsBlock = "//div[@id='main-contents']/script[contains(text(), 'Listview({template:')]";
+
+            HtmlDocument htmlDoc = null;
+
+            string whFilter = string.Format("http://{0}/quests?filter={1}", Entity.WowHeadHost, filter);
+
+            htmlDoc = (HtmlDocument)Entity.LoadWoWHeadUrl(whFilter);
+            HtmlNode n = htmlDoc.DocumentNode.SelectSingleNode(xpQuestsBlock);
+
+            return ParseJSONquests(n.InnerHtml, "f");
+        }
+
+        public static List<Quest> LoadQuestsByCategory(string category2, string category = null)
+        {
+            string xpQuestsBlock = "//div[@id='main-contents']/script[contains(text(), 'Listview({template:')]";
+
+            HtmlDocument htmlDoc = null;
+            String qurl = string.Format("http://{0}/quests={1}{2}{3}",
+               Entity.WowHeadHost,
+               category2,
+               string.IsNullOrEmpty(category) ? string.Empty : ".",
+               string.IsNullOrEmpty(category) ? string.Empty : category
+               );
+
+            htmlDoc = (HtmlDocument)Entity.LoadWoWHeadUrl(qurl);
+            HtmlNode n = htmlDoc.DocumentNode.SelectSingleNode(xpQuestsBlock);
+            string sn = n.InnerHtml;
+
+            var quests = ParseJSONquests(sn, "q");
+
+			if (!string.IsNullOrEmpty(category))
+			{
+				int cat = Helper.ParseInt(category, 0);
+				htmlDoc = null;
+
+				if (cat > 0)
+				{
+					htmlDoc = Entity.LoadWowHeadEntity("zone", cat);
+					n = htmlDoc.DocumentNode.SelectSingleNode("//div[@id='main-contents']/script[contains(text(), \"template: 'quest\")]");
+					sn = n.InnerHtml;
+				}
+
+				if (htmlDoc != null)
+				{
+					sn = sn.Substring(sn.IndexOf("template: 'quest"));
+					ParseJSONquests(sn, "z", quests);
+				}
+			}
+
+			return quests;
+        }
+
+        private static List<Quest> ParseJSONquests(string json, string sourceType = null, List<Quest> quests = null)
+		{
+			string strRegex = @"data:\s*\[(?<quest>\{(""\w+"":(-?\d+|\""([\w ':!-]|\\\\|\\""|\\)+\""|\[(\[-?\d+,-?\d+],?)*]),?)+},?)*]}\);";
+
+			Regex myRegex = new Regex(strRegex, RegexOptions.Compiled);
+			MatchCollection mc = myRegex.Matches(json);
+
+			if (mc.Count == 0)
+			{
+				Helper.LogDebug("Can't parse Quest block:" + json);
+				return null;
+			}
+			if (mc.Count > 1)
+			{
+				Helper.LogDebug("Invalid matches count:" + json);
+				return null;
+			}
+			Match m = mc[0];
+			if (!m.Success)
+			{
+				Helper.LogDebug("Can't parse Quest block, match is failed:" + json);
+				return null;
+			}
+
+			Group gQuests = m.Groups["quest"];
+
+			if (quests == null)
+				quests = new List<Quest>(gQuests.Captures.Count);
+
+			foreach (Capture ctr in gQuests.Captures)
+			{
+				Quest q = new Quest(ctr.Value);
+				if (quests.Find(f => f.Id == q.Id) == null)
+				{
+					q.SourceType = sourceType;
+					quests.Add(q);
+				}
+			}
+
+			return quests;
+		}
 	}
 }
+
+/****************************************
+ * Information about wowhead structures
+ ****************************************/
+/* Quest QuickInfo template
+ * ************************
+ *  [ul][li]Level: 1
+ * [/li][li]Requires level 1
+ * [/li][li]Loremaster: Yes
+ * [/li][li]Side: [span class=icon-horde]Horde[/span]
+ * [/li][li][icon name=quest_start]Start: [url=/npc=2981]Chief Hawkwind[/url][/icon]
+ * [/li][li][icon name=quest_end]End: [url=/npc=2980]Grull Hawkwind[/url][/icon]
+ * [/li][li]Not sharable
+ * [/li][li]Difficulty: [color=r2]1[/color][small] &nbsp;[/small][color=r3]4[/color][small] &nbsp;[/small][color=r4]6[/color]
+ * [/li][li]Added in patch 4.0.3
+ */
+/* Quest JSON templates
+ * **********************
+ * $.extend(g_quests[3094], {"category":-263,"category2":4,"classs":1024,"id":3094,"level":3,"name":"Verdant Note","race":160,"reprewards":[[81,75]],"reqclass":1024,"reqlevel":2,"reqrace":160,"side":2,"type":21,"xp":125});
+ * $.extend(g_quests[14449], {"category":215,"category2":1,"id":14449,"level":1,"money":8,"name":"The First Step","reqlevel":1,"side":2,"wflags":160,"xp":40});
+ */
 
 /*
 ShortDescription	//div[@id="main-contents"]/div/div[@id="touch-quest-medrec"]:after/sript:after/#text, parse		

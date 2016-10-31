@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entity.cs" />
     <Compile Include="ExpansionType.cs" />
     <Compile Include="Faction.cs" />
     <Compile Include="Helper.cs" />
@@ -48,7 +49,11 @@
     <Compile Include="Item.cs" />
     <Compile Include="Logger.cs" />
     <Compile Include="Npc.cs" />
+    <Compile Include="PortalClient.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="QuestCategory.cs" />
+    <Compile Include="QuestCategoryEntity.cs" />
     <Compile Include="Race.cs" />
     <Compile Include="Side.cs" />
     <Compile Include="wClass.cs" />

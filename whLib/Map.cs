@@ -5,16 +5,14 @@ using System.Web;
 
 namespace Wowhead
 {
-	public class Map
+	public class Map : Entity
 	{
-		public string Name { get; set; }
-
-		public int Id { get; set; }
-
 		public Map(int id, string name)
-		{
-			Id = id;
-			Name = name;
-		}
+            : base(id, name, EntityType.Map)
+		{ }
+
+        public Map(int id)
+            : base(id, EntityType.Map)
+        { }
 	}
 }

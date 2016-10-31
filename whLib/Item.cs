@@ -2,26 +2,32 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using HtmlAgilityPack;
 
 namespace Wowhead
 {
-	public class Item
+    public class Item : Entity
 	{
-		public string Name { get; set; }
-
-		public int Id { get; set; }
-
 		public Item(int id, string name)
-		{
-			Id = id;
-			Name = name;
-		}
-        public Item(int id)
-        {
-            Id = id;
+            : base(id, name, EntityType.Item)
+		{ }
 
-            // TO DO: Load from site/storage
+        public Item(int id)
+            : base(id, EntityType.Item)
+        { }
+
+        protected override void ParseFoundProperties(CaptureCollection capKeys, CaptureCollection capVals, string sid)
+        { }
+
+        protected override void ProcessQIKey(string key, int idx, string l, bool force = false)
+        {
+
+        }
+        protected override void ParseDescription(HtmlDocument htmlDoc)
+        {
+
         }
 	}
 }

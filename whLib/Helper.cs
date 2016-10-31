@@ -58,57 +58,97 @@ namespace Wowhead
             return true;
         }
 
-		/// <summary>
-		/// [ Deprecated ]
-		/// </summary>
-		/// <param name="fileUrl"></param>
-		/// <param name="stype"></param>
-		/// <param name="saveTo"></param>
-		/// <returns></returns>
-		public static HtmlDocument LoadWoWHeadUrl(string fileUrl, string stype = null, string saveTo = null)
+
+		/*public static object LoadWoWHeadUrl(string url, bool forceRequest = false)
 		{
-			string sID = GetIDByUrl(fileUrl, ref stype);
+            if (string.IsNullOrEmpty(url)) return null;
 
-			string filepath = sID;
+            string filepath = ReplaceRestrictedChars(url);
 
-			int id = -1;
-			if (int.TryParse(sID, out id))
+            if (filepath != null)
 			{
-				if (id > 0)
-				{
-					int hp = (int)Math.Floor((double)id / 1000.0);
-					int lp = id - hp * 1000;
-					filepath = String.Format("{2}\\{0:000}\\{1:000}.html", hp, lp, stype);
-				}
+				filepath = Path.Combine(WowHeadDataPath, filepath);
+	
+                if (!Directory.Exists(WowHeadDataPath))
+                    Directory.CreateDirectory(WowHeadDataPath);
 			}
 
-			if(saveTo != null)
-			{
-				filepath = Path.Combine(saveTo, filepath);
-				string justPath = Path.GetDirectoryName(filepath);
-				if (!Directory.Exists(justPath))
-					Directory.CreateDirectory(justPath);
-			}
+            string utype = GetRequestedUrlType(url);
 
-			HtmlWeb hw = new HtmlWeb();
 			HtmlDocument htmlDoc = null;
 
-			hw.PreRequest += Web_PreRequest;
-
-			if (saveTo == null || !File.Exists(filepath))
+            if (forceRequest || !File.Exists(filepath))
 			{
-				htmlDoc = hw.Load(fileUrl);
-				if (saveTo != null) htmlDoc.Save(filepath, Encoding.UTF8);
+                if (0 <= "html php aspx".IndexOf(utype))
+                {
+                    HtmlWeb hw = new HtmlWeb();
+                    hw.PreRequest += Web_PreRequest;
+                    htmlDoc = hw.Load(url);
+                    htmlDoc.Save(filepath, Encoding.UTF8);
+                    return htmlDoc;
+                }
+                else
+                {
+                    PortalClient pc = new PortalClient();
+                    pc.PreRequest += Web_PreRequest;
+                    byte[] myDataBuffer = pc.DownloadData(url);
+                    string sfile = Encoding.UTF8.GetString(myDataBuffer);
+                    File.WriteAllBytes(filepath, myDataBuffer);
+                    return sfile;
+                    
+                }
 			}
 			else
 			{
-				htmlDoc = new HtmlDocument();
-				htmlDoc.Load(filepath);
-			}
-			return htmlDoc;
-		}
+                if (0 <= "html php aspx".IndexOf(utype))
+                {
+                    htmlDoc = new HtmlDocument();
+                    htmlDoc.Load(filepath);
+                    return htmlDoc;
+                }
+                else
+                {
+                    if (0 <= "js css".IndexOf(utype))
+                        return File.ReadAllText(filepath, Encoding.UTF8);
+                    else
+                        return File.ReadAllBytes(filepath);
 
-		public static HtmlDocument LoadWowHeadEntity(string stype, int id, bool forceRequest = false)
+                }
+			}
+		}*/
+
+        public static string GetRequestedUrlType(string url)
+        {
+            int idx = url.IndexOf('?');
+            if (idx >= 0)
+                url = url.Substring(0, idx);
+
+            idx = url.LastIndexOf('/');
+            if (idx >= 0)
+                url = url.Substring(idx + 1);
+
+            idx = url.LastIndexOf('.');
+            if (idx >= 0 && -1 == url.LastIndexOf('='))
+                return url.Substring(idx + 1).ToLower();
+            return "html";
+        }
+
+        public static string ReplaceRestrictedChars(string s)
+        { 
+            return s
+				.Replace(':', '-')
+				.Replace('#', '-')
+				.Replace('=', '-')
+				.Replace('&', '-')
+				.Replace(';', '-')
+				.Replace('%', '-')
+				.Replace('+', '-')
+				.Replace('/', '-')
+                .Replace('?', '-')
+				;
+        }
+
+		/*public static HtmlDocument LoadWowHeadEntity(string stype, int id, bool forceRequest = false)
 		{
 			string filepath = null;
 			if (!forceRequest && id > 0)
@@ -140,15 +180,15 @@ namespace Wowhead
 				htmlDoc.Load(filepath);
 			}
 			return htmlDoc;
-		}
+		}*/
 
 	    public static string GetIDByUrl(string url, ref string stype)
 		{
-			string regexp = String.Format(stype == null ? @"{0}/(?<stype>\w+)=(?<id>[0-9]+)" : @"{0}/{1}=(?<id>[0-9]+)", WowHeadHost, stype);
+			string regexp = String.Format(stype == null ? @"{0}/(?<stype>\w+)=(?<id>[0-9]+)" : @"{0}/{1}=(?<id>[0-9]+)", Entity.WowHeadHost, stype);
 
 			Match match = Regex.Match(url, regexp, RegexOptions.IgnoreCase | RegexOptions.Compiled);
 
-			if (match.Groups.Count > 0)
+            if (match.Groups.Count > 0 &&  match.Groups["id"].Captures.Count > 0)
 			{
 				if (stype == null) stype = match.Groups["stype"].Captures[0].Value;
 				return match.Groups["id"].Captures[0].Value;
@@ -202,25 +242,9 @@ namespace Wowhead
 				return _appDataPath;
 			}
 		}
-
-	    public static string WowHeadHost
-	    {
-			get { return ConfigurationManager.AppSettings["hq.wh.baseURL"]; }
-	    }
-
 		public static string WowPediaHost
 		{
 			get { return ConfigurationManager.AppSettings["hq.wpedia.baseURL"]; }
-		}
-
-		public static string WowHeadDataPath
-		{
-			get { return Path.Combine(AppDataPath, ConfigurationManager.AppSettings["hq.wh.dataPath"]); }
-		}
-
-		public static string WowHeadLocalDBPath
-		{
-			get { return Path.Combine(AppDataPath, ConfigurationManager.AppSettings["hq.wh.localDBPath"]); }
 		}
 		public static string WowPediaDataPath
 		{

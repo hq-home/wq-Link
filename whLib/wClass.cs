@@ -8,7 +8,7 @@ namespace Wowhead
 {
 	
 
-	public class wClass
+	public class wClass : Entity
 	{
 		public static List<wClass> Classes = new List<wClass>() {
 			
@@ -26,18 +26,13 @@ namespace Wowhead
 			//======================================== |
 		};
 
-		public string Name { get; set; }
-
-		public int Id { get; set; }
-
 		public int Flag { get; set; }
 
 		public int Key { get; set; }
 
 		public wClass(int id, string name, int key)
+            :base(id, name, EntityType.Class)
 		{
-			Id = id;
-			Name = name;
 			Key = key;
 			Flag = 1 << (id - 1);
 		}

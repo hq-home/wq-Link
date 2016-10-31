@@ -5,17 +5,15 @@ using System.Web;
 
 namespace Wowhead
 {
-	public class Zone
+    public class Zone : Entity
 	{
-		public string Name { get; set; }
-
-		public int Id { get; set; }
-
 		public Zone(int id, string name)
-		{
-			Id = id;
-			Name = name;
-		}
+            : base(id, name, EntityType.Zone)
+		{ }
+
+        public Zone(int id)
+            : base(id, EntityType.Zone)
+        { }
 
 		public static Zone GetById(int id)
 		{

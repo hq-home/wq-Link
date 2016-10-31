@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using HtmlAgilityPack;
 
 namespace Wowhead
 {
-	public class Npc
+	public class Npc : Entity
 	{
 		#region [ Named NPCs ]
 		public static Npc NoOne = new Npc(-1, null);
@@ -26,23 +28,77 @@ namespace Wowhead
 		public static Npc JiFirepaw = new Npc(62445, "Ji Firepaw <Monk Trainer>");
 		#endregion
 
-		public string Name { get; set; }
-
-		public int Id { get; set; }
+        private int _hasQuests;
+        private int _classification;
+        private int _maxlevel;
+        private int _minlevel;
+        private int _type;
 
 		public Npc(int id, string name)
-		{
-			Id = id;
-			Name = name;
-		}
+            :base(id, name, EntityType.Npc)
+		{ }
 
         public Npc(int id)
-        {
-            Id = id;
+            : base(id, EntityType.Npc)
+        { }
 
-            // TO DO: Load from site/storage
+        protected override void ParseFoundProperties(CaptureCollection capKeys, CaptureCollection capVals, string sid)
+        {
+            for (int i = 0; i < capKeys.Count; i++)
+            {
+                Capture capKey = capKeys[i];
+                Capture capVal = capVals[i];
+
+                switch (capKey.Value)
+                {
+                    case "classification":
+                        _classification = Helper.ParseInt(capVal.Value);
+                        break;
+                    case "hasQuests":
+                        _hasQuests = Helper.ParseInt(capVal.Value);
+                        break;
+                    case "maxlevel":
+                        _maxlevel = Helper.ParseInt(capVal.Value);
+                        break;
+                    case "name":
+                        Name = Helper.ParseString(capVal.Value);
+                        break;
+                    case "minlevel":
+                        _minlevel = Helper.ParseInt(capVal.Value);
+                        break;
+                    case "type":
+                        _type = Helper.ParseInt(capVal.Value);
+                        //int t = Helper.ParseInt(capVal.Value);
+                        //if (!Enum.IsDefined(typeof(QuestType), t))
+                        //{
+                        //    Helper.LogDebug("Unknown Type [" + (Id == 0 ? sid : Id.ToString()) + "]:" + capVal.Value);
+                        //}
+                        //else Type = (QuestType)t;
+
+                        break;
+                    case "id":
+                        if (Id == 0)
+                            Id = Helper.ParseInt(capVal.Value);
+                        break;
+
+                    case "react":
+                    case "location":
+                        break;
+                    default:
+                        Helper.LogDebug("Npc. Unknown property[" + (Id == 0 ? sid : Id.ToString()) + "]:" + capKey.Value);
+                        break;
+                }
+            }
         }
 
+        protected override void ProcessQIKey(string key, int idx, string l, bool force = false)
+        {
+        
+        }
 
-	}
+        protected override void ParseDescription(HtmlDocument htmlDoc)
+        {
+           
+        }
+    }
 }
