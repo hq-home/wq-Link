@@ -633,7 +633,23 @@ Added in patch 4.0.3
 
         private static List<Quest> ParseJSONquests(string json, string sourceType = null, List<Quest> quests = null)
 		{
-			string strRegex = @"data:\s*\[(?<quest>\{(""\w+"":(-?\d+|\""([\w ':!-]|\\\\|\\""|\\)+\""|\[(\[-?\d+,-?\d+],?)*]),?)+},?)*]}\);";
+			string strRegex = @"data:\s*\[(?<quest>\{(""\w+"":(-?\d+|""(\\""|[^""])+""|\[(\[-?\d+,-?\d+],?)*]),?)+},?)*]}\);";
+			/*
+			 * data:\s*\[(?<quest>\{("\w+":(-?\d+|"([\w \,\.':!-]|\\\\|\\"|\\)+"|\[(\[-?\d+,-?\d+],?)*]),?)+},?)*]}\);
+			 data:\s*\[
+			 * (?<quest>
+			 * \{
+			 * (
+			 * "\w+":
+			 *		(
+			 *		-?\d+|"(\\"|[^"])+"|\[(\[-?\d+,-?\d+],?)*]
+			 *		),?
+			 * )+
+			 * },?)*
+			 * 
+			 * ]}\);
+			 */
+
 
 			Regex myRegex = new Regex(strRegex, RegexOptions.Compiled);
 			MatchCollection mc = myRegex.Matches(json);
